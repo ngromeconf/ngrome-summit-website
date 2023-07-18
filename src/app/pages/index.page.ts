@@ -1,30 +1,21 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from '../shared/ui/footer/footer.component';
+import { HeroComponent } from "../components/pages/index/hero/hero.component";
+import { FeaturesComponent } from "../components/pages/index/features/features.component";
+import { TimelineComponent } from "../components/pages/index/timeline/timeline.component";
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  template: `
-    <div>
-      <a href="https://analogjs.org/" target="_blank">
-        <img alt="Analog Logo" class="logo analog" src="/analog.svg" />
-      </a>
-    </div>
-
-    <h2>Analog</h2>
-
-    <h3>The fullstack meta-framework for Angular!</h3>
-
-    <div class="card">
-      <button type="button" (click)="increment()">Count {{ count }}</button>
-    </div>
-
-    <p class="read-the-docs">
-      For guides on how to customize this project, visit the
-      <a href="https://analogjs.org" target="_blank">Analog documentation</a>
-    </p>
+    selector: 'app-home',
+    standalone: true,
+    template: `
+    
+      <app-hero />
+      <app-features />
+      <app-timeline />
+    
   `,
-  styles: [
-    `
+    styles: [
+        `
       .logo {
         will-change: filter;
       }
@@ -38,7 +29,8 @@ import { Component } from '@angular/core';
         color: #888;
       }
     `,
-  ],
+    ],
+    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent]
 })
 export default class HomeComponent {
   count = 0;

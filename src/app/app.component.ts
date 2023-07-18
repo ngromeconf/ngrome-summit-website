@@ -1,11 +1,26 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './shared/ui/header/header.component';
+import { FooterComponent } from './shared/ui/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  template: ` <router-outlet></router-outlet> `,
+  template: `
+    <div class="h-full">
+      <app-header />
+      <!--Main-->
+      
+        <router-outlet></router-outlet>
+
+        <!--Footer-->
+        <div
+          class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        >
+          <app-footer />
+        </div>
+    </div>
+  `,
   styles: [
     `
       :host {
@@ -16,5 +31,6 @@ import { RouterOutlet } from '@angular/router';
       }
     `,
   ],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent],
 })
 export class AppComponent {}

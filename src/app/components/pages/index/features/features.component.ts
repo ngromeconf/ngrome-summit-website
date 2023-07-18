@@ -1,0 +1,208 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-features',
+  standalone: true,
+  imports: [CommonModule],
+  template: `<section>
+      <div class="container px-6 py-10 mx-auto">
+        <h1
+          class="text-3xl font-semibold text-white capitalize lg:text-4xl dark:text-white"
+        >
+          A full day <br />
+          dedicated to
+          <span class="underline decoration-blue-500">developers</span>
+        </h1>
+
+        <p class="mt-4 text-gray-100 xl:mt-6">
+          We will have a flexible space that separates the presentation areas
+          from the lounge. A dedicated Sponsor area and a lounge for free-time,
+          collaboration, and getting in touch our close-knit community with over
+          100 in person attendees .
+        </p>
+
+        <div
+          class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3"
+        >
+          <div
+            class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+          >
+            <span class="inline-block text-white dark:text-blue-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+                />
+              </svg>
+            </span>
+
+            <h1
+              class="text-2xl font-semibold text-gray-100 capitalize dark:text-white"
+            >
+              COMMUNITY
+            </h1>
+
+            <p class="text-gray-200 dark:text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
+              eveniet
+            </p>
+
+            <a
+              href="#"
+              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div
+            class="p-8 space-y-3 border-2 border-white-400 dark:border-blue-300 rounded-xl"
+          >
+            <span class="inline-block text-white ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                />
+              </svg>
+            </span>
+
+            <h1
+              class="text-2xl font-semibold text-gray-100 capitalize dark:text-white"
+            >
+              DIVERSITY
+            </h1>
+
+            <p class="text-gray-200 dark:text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
+              eveniet
+            </p>
+
+            <a
+              href="#"
+              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div
+            class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+          >
+            <span class="inline-block text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+                />
+              </svg>
+            </span>
+
+            <h1
+              class="text-2xl font-semibold text-gray-100 capitalize dark:text-white"
+            >
+              FUN
+            </h1>
+
+            <p class="text-gray-200 dark:text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
+              eveniet
+            </p>
+
+            <a
+              href="#"
+              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-8"
+    >
+      <div class="lg:w-72 px-6 lg:px-0">
+        <div class="p-2 shadow-lg sm:p-3">
+          <div class="flex flex-wrap items-center justify-between">
+            <button
+              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+              type="button"
+            >
+              Get Your Ticket
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>`,
+  styleUrls: ['./features.component.css'],
+})
+export class FeaturesComponent {}

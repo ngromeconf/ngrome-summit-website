@@ -33,8 +33,8 @@ import { CommonModule } from '@angular/common';
         </p>
 
         <div class="flex items-center justify-between pt-4">
-          <button
-            class="bg-gradient-to-r from-red-600 via-pink-500 to-pink-700 hover:from-red-600 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+          <button #hero_button_ticket
+            class="bg-gradient-to-r from-red-600 via-pink-500 to-purple-600 hover:from-red-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
             type="button"
           >
             Get Your Ticket

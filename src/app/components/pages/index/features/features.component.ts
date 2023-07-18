@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -189,12 +189,13 @@ import { CommonModule } from '@angular/common';
 
     <div
       class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-8"
+      *ngIf="scrolled"
     >
       <div class="lg:w-72 px-6 lg:px-0">
         <div class="p-2 shadow-lg sm:p-3">
-          <div class="flex flex-wrap items-center justify-between">
+          <div class="flex flex-wrap items-center justify-center" >
             <button
-              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+              class="bg-gradient-to-r from-red-600 via-pink-500 to-purple-600 hover:from-red-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
               type="button"
             >
               Get Your Ticket
@@ -205,4 +206,21 @@ import { CommonModule } from '@angular/common';
     </div>`,
   styleUrls: ['./features.component.css'],
 })
-export class FeaturesComponent {}
+export class FeaturesComponent {
+
+  scrolled = false;
+  
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll() {
+  
+    const numb = window.scrollY;
+    if (numb >=450){
+      this.scrolled = true;
+    }
+    else {
+      this.scrolled = false;
+    }
+    console.log(this.scrolled);
+  }
+  
+}

@@ -46,7 +46,7 @@ import { CommonModule } from '@angular/common';
           </svg>
 
           <span
-            class="bg-clip-text text-transparent ml-2 bg-gradient-to-r from-red-600 via-pink-500 to-purple-500"
+            class="bg-clip-text text-transparent ml-2 bg-gradient-to-r from-red-600 via-pink-500 to-purple-600"
             >Summit</span
           >
         </a>

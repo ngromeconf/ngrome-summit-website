@@ -6,7 +6,7 @@ import { ButtonMooreComponent } from "../../../../shared/ui/button-moore/button-
     selector: 'app-features',
     standalone: true,
     template: `<section>
-      <div class="container px-6 py-10 mx-auto">
+      <div class="container mt-8 px-6 py-10 mx-auto">
         <h1
           class="text-3xl font-semibold text-white capitalize lg:text-4xl"
         >

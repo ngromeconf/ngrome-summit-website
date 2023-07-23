@@ -18,8 +18,8 @@ import { CommonModule } from '@angular/common';
           role="list"
           class="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
         >
-          <li class="flex">
-            <div class="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+          <li class="flex place-content-center">
+            <div class="bg-white w-10/12 shadow-lg rounded-lg text-center p-8 mt-8">
               <img
                 alt="Transistor"
                 loading="lazy"

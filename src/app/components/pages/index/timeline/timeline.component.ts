@@ -31,7 +31,7 @@ import { CommonModule } from '@angular/common';
             Explore full agenda</a
           >
         </div>
-        <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+        <div class="ml-0 w-full md:ml-12 lg:w-2/3 sticky">
           <div class="container mx-auto w-full h-full">
             <div class="relative wrap overflow-hidden p-10 h-full">
               <div
@@ -51,13 +51,7 @@ import { CommonModule } from '@angular/common';
                   <h4 class="mb-3 font-bold text-lg md:text-2xl">
                     Registration & Coffee
                   </h4>
-                  <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
-                  >
-                    Pick your favourite event(s) and register in that event by
-                    filling the form corresponding to that event. Its that easy
-                    :)
-                  </p>
+                  
                 </div>
               </div>
               <div
@@ -69,13 +63,7 @@ import { CommonModule } from '@angular/common';
                   <h4 class="mb-3 font-bold text-lg md:text-2xl">
                     Opening Remarks
                   </h4>
-                  <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
-                  >
-                    Participate online. The links for your registered events
-                    will be sent to you via email and whatsapp groups. Use those
-                    links and show your talent.
-                  </p>
+                  
                 </div>
               </div>
               <div
@@ -88,13 +76,7 @@ import { CommonModule } from '@angular/common';
                     Opening Keynote <br />2 Talks <br />1 Ligghting Talk<br />
                     1 Panel
                   </h4>
-                  <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
-                  >
-                    The ultimate genius will be revealed by our judging panel on
-                    10th May, 2021 and the resukts will be announced on the
-                    whatsapp groups and will be mailed to you.
-                  </p>
+                  
                 </div>
               </div>
 
@@ -107,13 +89,7 @@ import { CommonModule } from '@angular/common';
                   <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
                     Lunch & Networking
                   </h4>
-                  <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
-                  >
-                    The winners will be contacted by our team for their
-                    addresses and the winning goodies will be sent at their
-                    addresses.
-                  </p>
+                  
                 </div>
               </div>
 
@@ -128,13 +104,7 @@ import { CommonModule } from '@angular/common';
                     1 Panel<br />
                     Closing Keynote
                   </h4>
-                  <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
-                  >
-                    The ultimate genius will be revealed by our judging panel on
-                    10th May, 2021 and the resukts will be announced on the
-                    whatsapp groups and will be mailed to you.
-                  </p>
+                  
                 </div>
               </div>
 
@@ -147,13 +117,7 @@ import { CommonModule } from '@angular/common';
                   <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
                     Closing Remarks
                   </h4>
-                  <p
-                    class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100"
-                  >
-                    The winners will be contacted by our team for their
-                    addresses and the winning goodies will be sent at their
-                    addresses.
-                  </p>
+                  
                 </div>
               </div>
             </div>

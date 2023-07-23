@@ -4,6 +4,7 @@ import { HeroComponent } from "../components/pages/index/hero/hero.component";
 import { FeaturesComponent } from "../components/pages/index/features/features.component";
 import { TimelineComponent } from "../components/pages/index/timeline/timeline.component";
 import { SponsorsComponent } from "../components/shared/sponsors/sponsors.component";
+import { CommunityPartnerComponent } from "../components/shared/community-partner/community-partner.component";
 
 @Component({
     selector: 'app-home',
@@ -14,6 +15,7 @@ import { SponsorsComponent } from "../components/shared/sponsors/sponsors.compon
       <app-sponsors />
       <app-features />
       <app-timeline />
+      <app-community-partner />
     
   `,
     styles: [
@@ -32,7 +34,7 @@ import { SponsorsComponent } from "../components/shared/sponsors/sponsors.compon
       }
     `,
     ],
-    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent, SponsorsComponent]
+    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent, SponsorsComponent, CommunityPartnerComponent]
 })
 export default class HomeComponent {
   count = 0;

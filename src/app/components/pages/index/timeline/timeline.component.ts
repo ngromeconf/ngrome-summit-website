@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TimePipe, Timeline } from './time.pipe';
+import { TIMELINE } from './timeline';
 
 @Component({
   selector: 'app-timeline',
@@ -79,81 +80,5 @@ import { TimePipe, Timeline } from './time.pipe';
   styleUrls: ['./timeline.component.css'],
 })
 export class TimelineComponent {
-  public agendaItems: Timeline = {
-    startTime: new Date(2023, 11, 1, 8),
-    agenda: [
-      {
-        duration: 90,
-        title: 'Registration & Coffee',
-      },
-      {
-        duration: 15,
-        title: 'Opening Remarks',
-      },
-      {
-        duration: 40,
-        title: 'Opening Keynote ',
-      },
-      {
-        duration: 25,
-        title: 'Talk',
-      },
-      {
-        duration: 10,
-        title: 'Lighthing talk',
-      },
-      {
-        duration: 40,
-        title: 'Coffee Break',
-      },
-      {
-        duration: 25,
-        title: 'Talk',
-      },
-      {
-        duration: 10,
-        title: 'Lighthing talk',
-      },
-      {
-        duration: 25,
-        title: 'Panel',
-      },
-      {
-        duration: 90,
-        title: 'Networking & Lunch',
-      },
-      {
-        duration: 10,
-        title: 'Lighthing talk',
-      },
-      {
-        duration: 25,
-        title: 'Talk',
-      },
-      {
-        duration: 25,
-        title: 'Talk',
-      },
-      {
-        duration: 10,
-        title: 'Lighthing talk',
-      },
-      {
-        duration: 40,
-        title: 'Coffee Break',
-      },
-      {
-        duration: 25,
-        title: 'Talk',
-      },
-      {
-        duration: 40,
-        title: 'Keynote',
-      },
-      {
-        duration: 10,
-        title: 'Closing Remarks',
-      },
-    ],
-  };
+  public agendaItems: Timeline = TIMELINE;
 }

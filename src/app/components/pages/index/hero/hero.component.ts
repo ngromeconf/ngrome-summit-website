@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ButtonTicketComponent } from "../../../../shared/ui/button-ticket/button-ticket.component";
 
 @Component({
-  selector: 'app-hero',
-  standalone: true,
-  imports: [CommonModule],
-  template: ` <div
+    selector: 'app-hero',
+    standalone: true,
+    template: ` <div
       class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center"
     >
       <!--Left Col-->
@@ -32,14 +32,7 @@ import { CommonModule } from '@angular/common';
           world and web technologies.
         </p>
 
-        <div class="flex items-center justify-between pt-4">
-          <button #hero_button_ticket
-            class="bg-gradient-to-r from-red-600 via-pink-500 to-purple-600 hover:from-red-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-            type="button"
-          >
-            Get Your Ticket
-          </button>
-        </div>
+        <app-button-ticket />
       </div>
 
       <!--Right Col-->
@@ -51,6 +44,11 @@ import { CommonModule } from '@angular/common';
       </div>
     </div>
    `,
-  styleUrls: ['./hero.component.css'],
+    styleUrls: ['./hero.component.css'],
+    imports: [CommonModule, ButtonTicketComponent]
 })
-export class HeroComponent {}
+export class HeroComponent {
+
+  
+  
+}

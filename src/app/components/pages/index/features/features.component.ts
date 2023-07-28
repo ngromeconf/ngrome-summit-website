@@ -137,19 +137,6 @@ import { ButtonMooreComponent } from "../../../../shared/ui/button-moore/button-
 })
 export class FeaturesComponent {
 
-  scrolled = false;
   
-  @HostListener('window:scroll', ['$event'])
-  onWindowScroll() {
-  
-    const numb = window.scrollY;
-    if (numb >=450){
-      this.scrolled = true;
-    }
-    else {
-      this.scrolled = false;
-    }
-    console.log(this.scrolled);
-  }
   
 }

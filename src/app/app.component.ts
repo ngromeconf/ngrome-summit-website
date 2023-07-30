@@ -7,8 +7,8 @@ import { FooterComponent } from './shared/ui/footer/footer.component';
   selector: 'app-root',
   standalone: true,
   template: `
-    <app-header class="sticky top-0 z-10 backdrop-blur-sm bg-black/50" />
     <div class="h-full">
+      <app-header class="flex sticky top-0 z-10 backdrop-blur-sm bg-black/50" />
       <!--Main-->
       
         <router-outlet></router-outlet>

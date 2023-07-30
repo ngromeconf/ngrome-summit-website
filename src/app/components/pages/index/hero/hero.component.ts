@@ -14,7 +14,7 @@ import { ButtonTicketComponent } from "../../../../shared/ui/button-ticket/butto
         class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden"
       >
         <h1
-          class="my-4 text-3xl md:text-5xl text-white font-bold leading-tight text-center md:text-left"
+          class="my-4 text-3xl md:text-5xl text-white font-semibold leading-tight text-center md:text-left"
         >
           NGRome
           <span
@@ -22,7 +22,7 @@ import { ButtonTicketComponent } from "../../../../shared/ui/button-ticket/butto
           >
             Summit
           </span>
-          is taking place in Rome!
+          [December 1, 2023]
         </h1>
         <p
           class="leading-normal text-gray-300 md:text-2xl mb-8 text-center md:text-left"

@@ -1,4 +1,12 @@
-import { Timeline } from './time.pipe';
+export type timelineItems = {
+  duration: number;
+  title: string;
+};
+
+export type Timeline = {
+  startTime: Date;
+  agenda: timelineItems[];
+};
 
 export const TIMELINE: Timeline = {
     startTime: new Date(2023, 11, 1, 8),

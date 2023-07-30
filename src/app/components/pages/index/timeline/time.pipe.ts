@@ -1,25 +1,15 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { DatePipe } from '@angular/common';
+import { Timeline, TIMELINE } from './timeline';
 
 
-export type timelineItems = {
-  duration: number;
-  title: string;
-};
-
-export type Timeline = {
-  startTime: Date;
-  agenda: timelineItems[];
-};
 
 @Pipe({ name: 'timePipe', standalone: true })
 export class TimePipe implements PipeTransform {
 
   // or use a rest parameter
-  transform(duration: number, index: any, timeline: Timeline): any {
-    //console.log(duration, index, timeline);
-
-    return this.increaseTime(index, timeline);
+  transform(index: any): any {
+    return this.increaseTime(index, TIMELINE);
   }
 
   private increaseTime(actualIndex: number, timeline: Timeline) {

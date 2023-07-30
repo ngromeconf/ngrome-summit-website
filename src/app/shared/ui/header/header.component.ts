@@ -6,10 +6,10 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `<!--Nav-->
-    <div class="w-full container mx-auto ">
+    <div class="w-full container mx-auto pt-10 pb-10 top-0">
       <div class="w-full flex lg:items-center lg:justify-between place-content-center">
         <a
-          class="flex items-center text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          class="flex items-center text-white no-underline hover:no-underline font-semibold text-2xl lg:text-4xl"
           href="#"
         >
           <svg

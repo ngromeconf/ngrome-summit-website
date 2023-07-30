@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TimePipe, Timeline } from './time.pipe';
-import { TIMELINE } from './timeline';
+import { TimePipe } from './time.pipe';
+import { TIMELINE, Timeline } from './timeline';
 
 @Component({
   selector: 'app-timeline',
@@ -63,9 +63,9 @@ import { TIMELINE } from './timeline';
                     }"
                   >
                     <p class="mb-2 text-base text-red-600">
-                      {{ agenda.duration | timePipe : i : agendaItems }}
+                      {{ i | timePipe }}
                     </p>
-                    <h4 class="mb-2 font-bold text-lg md:text-2xl">
+                    <h4 class="mb-2 font-semibold text-lg md:text-2xl">
                       {{ agenda.title }}
                     </h4>
                   </div>

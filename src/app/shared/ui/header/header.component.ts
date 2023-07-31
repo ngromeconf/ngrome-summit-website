@@ -6,10 +6,10 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `<!--Nav-->
-    <div class="w-full container mx-auto">
-      <div class="w-full flex items-center justify-between">
+    <div class="w-full container mx-auto pt-10 pb-10 top-0">
+      <div class="w-full flex lg:items-center lg:justify-between place-content-center">
         <a
-          class="flex items-center text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          class="flex items-center text-white no-underline hover:no-underline font-semibold text-2xl lg:text-4xl"
           href="#"
         >
           <svg
@@ -46,14 +46,14 @@ import { CommonModule } from '@angular/common';
           </svg>
 
           <span
-            class="bg-clip-text text-transparent ml-2 bg-gradient-to-r from-red-600 via-pink-500 to-purple-500"
+            class="bg-clip-text text-transparent ml-2 bg-gradient-to-r from-red-600 via-pink-500 to-purple-600"
             >Summit</span
           >
         </a>
 
-        <div class="flex w-1/2 justify-end content-center">
+        <div class="flex w-1/2 justify-end content-center hidden md:flex">
           <a
-            class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
             href="https://twitter.com/intent/tweet?url=#"
           >
             <svg
@@ -68,7 +68,7 @@ import { CommonModule } from '@angular/common';
             </svg>
           </a>
           <a
-            class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
             href="https://www.facebook.com/sharer/sharer.php?u=#"
           >
             <!-- Facebook -->
@@ -84,7 +84,7 @@ import { CommonModule } from '@angular/common';
             </svg>
           </a>
           <a
-            class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
             href="https://www.facebook.com/sharer/sharer.php?u=#"
           >
             <!-- Linkedin -->
@@ -100,7 +100,7 @@ import { CommonModule } from '@angular/common';
             </svg>
           </a>
           <a
-            class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
             href="https://www.facebook.com/sharer/sharer.php?u=#"
           >
             <!-- Instagram -->

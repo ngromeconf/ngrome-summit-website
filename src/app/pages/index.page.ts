@@ -3,6 +3,8 @@ import { FooterComponent } from '../shared/ui/footer/footer.component';
 import { HeroComponent } from "../components/pages/index/hero/hero.component";
 import { FeaturesComponent } from "../components/pages/index/features/features.component";
 import { TimelineComponent } from "../components/pages/index/timeline/timeline.component";
+import { SponsorsComponent } from "../components/shared/sponsors/sponsors.component";
+import { CommunityPartnerComponent } from "../components/shared/community-partner/community-partner.component";
 
 @Component({
     selector: 'app-home',
@@ -10,8 +12,10 @@ import { TimelineComponent } from "../components/pages/index/timeline/timeline.c
     template: `
     
       <app-hero />
+      <app-sponsors />
       <app-features />
       <app-timeline />
+      <app-community-partner />
     
   `,
     styles: [
@@ -30,7 +34,7 @@ import { TimelineComponent } from "../components/pages/index/timeline/timeline.c
       }
     `,
     ],
-    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent]
+    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent, SponsorsComponent, CommunityPartnerComponent]
 })
 export default class HomeComponent {
   count = 0;

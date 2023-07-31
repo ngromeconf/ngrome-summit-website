@@ -1,18 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ButtonMooreComponent } from "../../../../shared/ui/button-moore/button-moore.component";
 
 @Component({
-  selector: 'app-features',
-  standalone: true,
-  imports: [CommonModule],
-  template: `<section>
-      <div class="container px-6 py-10 mx-auto">
+    selector: 'app-features',
+    standalone: true,
+    template: `<section>
+      <div class="container mt-8 px-6 py-10 mx-auto">
         <h1
-          class="text-3xl font-semibold text-white capitalize lg:text-4xl dark:text-white"
+          class="text-3xl font-semibold text-white capitalize lg:text-4xl"
         >
           A full day <br />
           dedicated to
-          <span class="underline decoration-blue-500">developers</span>
+          <span class="underline decoration-red-500">developers</span>
         </h1>
 
         <p class="mt-4 text-gray-100 xl:mt-6">
@@ -26,7 +26,7 @@ import { CommonModule } from '@angular/common';
           class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3"
         >
           <div
-            class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+            class="p-8 space-y-3 border-2 border-red-500 rounded-xl"
           >
             <span class="inline-block text-white dark:text-blue-400">
               <svg
@@ -57,29 +57,11 @@ import { CommonModule } from '@angular/common';
               eveniet
             </p>
 
-            <a
-              href="#"
-              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </a>
+            <app-button-moore />
           </div>
 
           <div
-            class="p-8 space-y-3 border-2 border-white-400 dark:border-blue-300 rounded-xl"
+            class="p-8 space-y-3 border-2 border-white-400 dark:border-red-300 rounded-xl"
           >
             <span class="inline-block text-white ">
               <svg
@@ -110,29 +92,11 @@ import { CommonModule } from '@angular/common';
               eveniet
             </p>
 
-            <a
-              href="#"
-              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </a>
+            <app-button-moore />
           </div>
 
           <div
-            class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+            class="p-8 space-y-3 border-2 border-red-500 rounded-xl"
           >
             <span class="inline-block text-white">
               <svg
@@ -163,46 +127,16 @@ import { CommonModule } from '@angular/common';
               eveniet
             </p>
 
-            <a
-              href="#"
-              class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </a>
+            <app-button-moore />
           </div>
         </div>
       </div>
-    </section>
-
-    <div
-      class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-8"
-    >
-      <div class="lg:w-72 px-6 lg:px-0">
-        <div class="p-2 shadow-lg sm:p-3">
-          <div class="flex flex-wrap items-center justify-between">
-            <button
-              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              type="button"
-            >
-              Get Your Ticket
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>`,
-  styleUrls: ['./features.component.css'],
+    </section>`,
+    styleUrls: ['./features.component.css'],
+    imports: [CommonModule, ButtonMooreComponent]
 })
-export class FeaturesComponent {}
+export class FeaturesComponent {
+
+  
+  
+}

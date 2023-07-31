@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ButtonTicketComponent } from "../../../../shared/ui/button-ticket/button-ticket.component";
 
 @Component({
-  selector: 'app-hero',
-  standalone: true,
-  imports: [CommonModule],
-  template: ` <div
+    selector: 'app-hero',
+    standalone: true,
+    template: ` <div
       class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center"
     >
       <!--Left Col-->
@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
         class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden"
       >
         <h1
-          class="my-4 text-3xl md:text-5xl text-white font-bold leading-tight text-center md:text-left"
+          class="my-4 text-3xl md:text-5xl text-white font-semibold leading-tight text-center md:text-left"
         >
           NGRome
           <span
@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
           >
             Summit
           </span>
-          is taking place in Rome!
+          [December 1, 2023]
         </h1>
         <p
           class="leading-normal text-gray-300 md:text-2xl mb-8 text-center md:text-left"
@@ -32,14 +32,7 @@ import { CommonModule } from '@angular/common';
           world and web technologies.
         </p>
 
-        <div class="flex items-center justify-between pt-4">
-          <button
-            class="bg-gradient-to-r from-red-600 via-pink-500 to-pink-700 hover:from-red-600 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-            type="button"
-          >
-            Get Your Ticket
-          </button>
-        </div>
+        <app-button-ticket />
       </div>
 
       <!--Right Col-->
@@ -51,6 +44,11 @@ import { CommonModule } from '@angular/common';
       </div>
     </div>
    `,
-  styleUrls: ['./hero.component.css'],
+    styleUrls: ['./hero.component.css'],
+    imports: [CommonModule, ButtonTicketComponent]
 })
-export class HeroComponent {}
+export class HeroComponent {
+
+  
+  
+}

@@ -9,10 +9,10 @@ export type Timeline = {
 };
 
 export const TIMELINE: Timeline = {
-    startTime: new Date(2023, 11, 1, 8),
+    startTime: new Date(2023, 11, 1, 8, 45),
     agenda: [
       {
-        duration: 90,
+        duration: 60,
         title: 'Registration & Coffee',
       },
       {

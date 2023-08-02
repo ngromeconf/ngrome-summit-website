@@ -121,20 +121,14 @@ import { ButtonMooreComponent } from '../../../../shared/ui/button-moore/button-
           </h1>
 
           <p class="text-gray-200 dark:text-gray-300 pb-4">
-            NGRome Summit is not just a tech conference. It's also a fun and
+            NGRome <span
+            class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
+          >
+            Summit
+          </span> is not just a tech conference. It's also a fun and
             stimulating event for people who work in the tech industry. Here are
-            some of the ways to have fun at [conference name]: Participate in
-            workshops. Workshops are a great way to learn new skills and meet
-            people who share your interests. There are workshops on a wide range
-            of topics, so there's sure to be something you're interested in.
-            Network with other professionals. [Conference name] is a great
-            opportunity to meet people who work in the tech industry. You can
-            exchange business cards, talk about your projects, and build
-            relationships. Play games. [Conference name] is not all work! There
-            are also many fun activities to do, such as games, quizzes, and
-            team-building activities. Enjoy the food and drinks. [Conference
-            name] offers a variety of food and drink options, so you can relax
-            and enjoy a break.
+            some of the ways to have fun like participating in
+            workshops, play games with our communities and sponsors and enjoy the food and drinks.
           </p>
 
           <app-button-moore />

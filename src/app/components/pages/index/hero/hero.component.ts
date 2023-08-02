@@ -22,7 +22,7 @@ import { ButtonTicketComponent } from "../../../../shared/ui/button-ticket/butto
           >
             Summit
           </span>
-          [December 1, 2023]
+          ['December 1st', 2023]
         </h1>
         <p
           class="leading-normal text-gray-300 md:text-2xl mb-8 text-center md:text-left"

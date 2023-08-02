@@ -7,6 +7,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `<a
     [href]="goToUrl"
+    target="_blank"
     class="inline-flex p-2 text-red-500 capitalize transition-colors duration-200 transform bg-gray-100 rounded-full hover:underline hover:bg-red-100"
   >
     <svg

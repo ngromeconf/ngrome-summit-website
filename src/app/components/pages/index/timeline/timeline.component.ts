@@ -48,7 +48,7 @@ import { TIMELINE, Timeline } from './timeline';
                 *ngFor="let agenda of agendaItems.agenda; index as i"
               >
                 <div
-                  class="mb-4 flex justify-between items-center w-full"
+                  class="mb-4 flex justify-between items-center w-full font-semibold"
                   [ngClass]="{
                     'flex-row-reverse left-timeline': i % 2 === 0,
                     'right-timeline': i % 2 === 1

@@ -5,6 +5,7 @@ import { FeaturesComponent } from "../components/pages/index/features/features.c
 import { TimelineComponent } from "../components/pages/index/timeline/timeline.component";
 import { SponsorsComponent } from "../components/shared/sponsors/sponsors.component";
 import { CommunityPartnerComponent } from "../components/shared/community-partner/community-partner.component";
+import { MapsComponent } from "../shared/ui/maps/maps.component";
 
 @Component({
     selector: 'app-home',
@@ -14,6 +15,7 @@ import { CommunityPartnerComponent } from "../components/shared/community-partne
       <app-hero />
       <app-sponsors />
       <app-features />
+      <app-maps />
       <app-timeline />
       <app-community-partner />
     
@@ -34,7 +36,7 @@ import { CommunityPartnerComponent } from "../components/shared/community-partne
       }
     `,
     ],
-    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent, SponsorsComponent, CommunityPartnerComponent]
+    imports: [FooterComponent, HeroComponent, FeaturesComponent, TimelineComponent, SponsorsComponent, CommunityPartnerComponent, MapsComponent]
 })
 export default class HomeComponent {
   count = 0;

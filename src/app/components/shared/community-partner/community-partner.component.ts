@@ -16,7 +16,7 @@ import { COMMUNITIES, Communities } from './communities';
       <div
         class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
       >
-        <a href="#" class="flex items-center lg:justify-center" *ngFor="let community of communities">
+        <a [href]="community.url" target="_blank" class="flex items-center lg:justify-center" *ngFor="let community of communities">
           <img
             [src]="community.logoUrl"
             [alt]="community.name"

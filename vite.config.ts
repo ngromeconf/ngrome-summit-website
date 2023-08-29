@@ -12,7 +12,18 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     mainFields: ['module'],
   },
-  plugins: [analog()],
+  plugins: [
+    analog({
+      ssr: true,
+      static: true,
+      prerender: {
+        routes: async () => ['/'],
+        sitemap: {
+          host: 'https://2023.ngrome.io',
+        },
+      },
+    }),
+  ],
   test: {
     globals: true,
     environment: 'jsdom',

@@ -54,7 +54,8 @@ import { CommonModule } from '@angular/common';
         <div class="flex w-1/2 justify-end content-center hidden md:flex">
           <a
             class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
-            href="https://twitter.com/intent/tweet?url=#"
+            href="https://twitter.com/ngromeconf"
+            target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +70,7 @@ import { CommonModule } from '@angular/common';
           </a>
           <a
             class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
-            href="https://www.facebook.com/sharer/sharer.php?u=#"
+            href="https://www.facebook.com/ngromeconf"
           >
             <!-- Facebook -->
             <svg
@@ -85,7 +86,7 @@ import { CommonModule } from '@angular/common';
           </a>
           <a
             class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
-            href="https://www.facebook.com/sharer/sharer.php?u=#"
+            href="https://www.linkedin.com/company/ngrome"
           >
             <!-- Linkedin -->
             <svg
@@ -101,7 +102,7 @@ import { CommonModule } from '@angular/common';
           </a>
           <a
             class="inline-block text-white no-underline hover:text-red-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
-            href="https://www.facebook.com/sharer/sharer.php?u=#"
+            href="https://www.instagram.com/ngromeconf/"
           >
             <!-- Instagram -->
             <svg

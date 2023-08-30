@@ -10,7 +10,10 @@ import { ButtonMooreComponent } from '../../../../shared/ui/button-moore/button-
       <h1 class="text-3xl font-semibold text-white capitalize lg:text-4xl">
         A full day <br />
         dedicated to
-        <span class="underline decoration-red-500">developers</span>
+        <span
+          class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
+          >developers</span
+        >
       </h1>
 
       <p class="mt-4 text-gray-100 xl:mt-6">
@@ -56,7 +59,7 @@ import { ButtonMooreComponent } from '../../../../shared/ui/button-moore/button-
             of fun.
           </p>
 
-          <app-button-moore />
+          <!-- <app-button-moore /> -->
         </div>
 
         <div
@@ -93,7 +96,7 @@ import { ButtonMooreComponent } from '../../../../shared/ui/button-moore/button-
             companies and individuals who donate to our Diversity Program.
           </p>
 
-          <app-button-moore goToUrl="https://ngrome.io/diversity" />
+          <!-- <app-button-moore goToUrl="https://ngrome.io/diversity" /> -->
         </div>
 
         <div class="p-8 space-y-3 border-2 border-red-500 rounded-xl">
@@ -121,17 +124,19 @@ import { ButtonMooreComponent } from '../../../../shared/ui/button-moore/button-
           </h1>
 
           <p class="text-gray-200 dark:text-gray-300 pb-4">
-            NGRome <span
-            class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
-          >
-            Summit
-          </span> is not just a tech conference. It's also a fun and
-            stimulating event for people who work in the tech industry. Here are
-            some of the ways to have fun like participating in
-            workshops, play games with our communities and sponsors and enjoy the food and drinks.
+            NGRome
+            <span
+              class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
+            >
+              Summit
+            </span>
+            is not just a tech conference. It's also a fun and stimulating event
+            for people who work in the tech industry. Here are some of the ways
+            to have fun like participating in workshops, play games with our
+            communities and sponsors and enjoy the food and drinks.
           </p>
 
-          <app-button-moore />
+          <!-- <app-button-moore /> -->
         </div>
       </div>
     </div>

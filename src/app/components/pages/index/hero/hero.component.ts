@@ -16,26 +16,21 @@ import { ButtonTicketComponent } from '../../../../shared/ui/button-ticket/butto
       <div
         class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
       >
-        <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+        <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right ">
           <h1
-            class="my-4 text-3xl md:text-5xl text-white font-semibold leading-tight text-center md:text-left"
+            class="my-4 text-3xl md:text-5xl text-white font-semibold leading-tight text-left"
           >
-            NGRome
-            <span
-              class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
-            >
-              Summit
-            </span>
-            ['December 1st', 2023]
+            December 1st, 2023
           </h1>
 
-          <p class="mt-4 max-w-lg sm:text-xl/relaxed">
-            Whether you are a beginner, intermediate, or an expert, this will be
-            the best opportunity to learn about the latest trends in the Angular
-            world and web technologies.
+          <p class="mt-4 max-w-lg sm:text-xl/relaxed text-left">
+            This year's conference will take place on December 1st, 2023, in
+            Rome, Italy. NGROME is the perfect place to learn new skills,
+            network with other developers, and get inspired. The conference
+            features a wide range of topics
           </p>
 
-          <div class="mt-8 flex flex-wrap gap-4 text-center">
+          <div class="mt-8 flex flex-wrap gap-4 justify-items-center">
             <app-button-ticket />
           </div>
         </div>

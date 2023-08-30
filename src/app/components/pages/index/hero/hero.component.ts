@@ -7,10 +7,10 @@ import { ButtonTicketComponent } from '../../../../shared/ui/button-ticket/butto
   standalone: true,
   template: `
     <section
-      class="relative bg-[url('/browser_photo.png')] bg-cover bg-center bg-no-repeat"
+      class="relative bg-[url('/browser_photo.jpg')] bg-cover bg-center bg-no-repeat"
     >
       <div
-        class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-black/95 sm:to-black/25 sm:bg-gradient-to-r sm:bg-gradient-to-l"
+        class="absolute inset-0 bg-transparent from-black/95 to-black/25 bg-gradient-to-r bg-gradient-to-l"
       ></div>
 
       <div

@@ -9,7 +9,10 @@ import { CommonModule } from '@angular/common';
     <div class="container mx-auto px-4">
       <h1 class="text-3xl font-semibold text-white capitalize lg:text-4xl">
         Main sponsor and awesome
-        <span class="underline decoration-red-500">location</span>
+        <span
+          class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
+          >location</span
+        >
       </h1>
       <div class="flex flex-wrap">
         <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -43,7 +46,6 @@ import { CommonModule } from '@angular/common';
           <h3 class="text-3xl mb-2 font-semibold text-white leading-normal">
             Microsoft HQ Roma
           </h3>
-          
         </div>
         <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
           <div
@@ -51,8 +53,7 @@ import { CommonModule } from '@angular/common';
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11893.301387767895!2d12.4587945!3d41.8212919!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b3c68c87603%3A0x6f408f20a8cbe525!2sMicrosoft!5e0!3m2!1sit!2sit!4v1691055519409!5m2!1sit!2sit"
-              width="600"
-              height="450"
+              width="100%" height="100%"
               style="border:0;"
               allowfullscreen=""
               loading="lazy"

@@ -18,6 +18,7 @@ import { COMMUNITIES, Communities } from './communities';
       >
         <a href="#" class="flex items-center lg:justify-center" *ngFor="let community of communities">
           <img
+            fetchpriority="low"
             [src]="community.logoUrl"
             [alt]="community.name"
           />

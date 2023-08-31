@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { COMMUNITIES, Communities } from './communities';
 
 @Component({
   selector: 'app-community-partner',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   template: `<section class="bg-white dark:bg-gray-900">
     <div class="max-w-screen-xl px-4 pt-12 pb-8 mx-auto lg:pb-16">
       <p
@@ -16,11 +16,17 @@ import { COMMUNITIES, Communities } from './communities';
       <div
         class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
       >
-        <a href="#" class="flex items-center lg:justify-center" *ngFor="let community of communities">
+        <a
+          href="#"
+          class="flex items-center lg:justify-center"
+          *ngFor="let community of communities"
+        >
           <img
-            fetchpriority="low"
-            [src]="community.logoUrl"
+            [ngSrc]="community.logoUrl"
             [alt]="community.name"
+            fetchpriority="low"
+            height= "400"
+            width="400"
           />
         </a>
       </div>

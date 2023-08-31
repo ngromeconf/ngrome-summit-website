@@ -24,10 +24,16 @@ import { ButtonTicketComponent } from '../../../../shared/ui/button-ticket/butto
           </h1>
 
           <p class="mt-4 max-w-lg sm:text-xl/relaxed text-left">
-            This year's conference will take place on December 1st, 2023, in
-            Rome, Italy. NGROME is the perfect place to learn new skills,
-            network with other developers, and get inspired. The conference
-            features a wide range of topics
+            This year's conference will take place on
+            <strong class="text-white">December 1st, 2023</strong>, in
+            <strong class="text-white">Rome, Italy</strong>.<br />
+            <strong class="text-white">NGRome</strong>&nbsp;<span
+              class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500"
+              >Summit</span
+            >
+            is the perfect place to learn new skills, network with other
+            developers, and get inspired. The summit features a wide range
+            of topics, including: Web development, Mobile development, DevOps, Security and Soft Skills.
           </p>
 
           <div class="mt-8 flex flex-wrap gap-4 justify-items-center">

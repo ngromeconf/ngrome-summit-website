@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `<section class="mt-12">
-    <div class="container mx-auto px-4 min-h-screen">
+    <div class="container mx-auto px-4">
       <h1 class="text-3xl font-semibold text-white capitalize lg:text-4xl">
         Main sponsor and awesome
         <span
@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
           >location</span
         >
       </h1>
-      <div class="flex flex-wrap min-h-full	">
+      <div class="flex flex-wrap ">
         <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-1 shadow-lg rounded-lg"
@@ -23,7 +23,7 @@ import { CommonModule } from '@angular/common';
           </div>
         </div>
       </div>
-      <div class="flex flex-wrap items-center mt-16 min-h-full">
+      <div class="flex flex-wrap items-center mt-16">
         <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
           <div
             class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white"
@@ -47,18 +47,18 @@ import { CommonModule } from '@angular/common';
             Microsoft HQ Roma
           </h3>
         </div>
-        <div class="w-full md:w-4/12 mr-auto ml-auto min-h-full	">
-          <div
-            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-2 shadow-lg rounded-lg bg-pink-500 min-h-full"
-          >
+        <div class="w-full md:w-6/12 mr-auto ml-auto">
+          <div class="relative w-full h-96" >
             <iframe
+              class="absolute top-0 left-0 w-full h-full"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11893.301387767895!2d12.4587945!3d41.8212919!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b3c68c87603%3A0x6f408f20a8cbe525!2sMicrosoft!5e0!3m2!1sit!2sit!4v1691055519409!5m2!1sit!2sit"
-              width="100%" height="100%"
+              frameborder="0"
               style="border:0;"
               allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              aria-hidden="false"
+              tabindex="0"
+            >
+            </iframe>
           </div>
         </div>
       </div>

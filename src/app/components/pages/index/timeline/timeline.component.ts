@@ -26,12 +26,12 @@ import { TIMELINE, Timeline } from './timeline';
           <p class="text-sm md:text-base text-gray-50 mb-4">
             One day with experts and passionate about Angular
           </p>
-          <a
+          <!-- <a
             href="#"
             class="bg-gradient-to-r mr-auto text-white from-red-600 via-pink-500 to-purple-600 hover:from-red-500 hover:to-purple-500 rounded shadow hover:shadow-lg py-2 px-4"
           >
             Explore full agenda</a
-          >
+          > -->
         </div>
         <div class="ml-0 w-full md:ml-12 lg:w-2/3 sticky">
           <div class="container mx-auto w-full h-full">

@@ -1,1 +1,44 @@
+.main {
+    background-image: linear-gradient(
+      101.85deg,
+      #dc2626 12.42%,
+      #fbbf24 43.02%,
+      #ef4444 88.31%
+    );
+    background-color: #f3ec78;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+.gold {
+  background-image: linear-gradient(
+    101.85deg,
+    #a47f38 12.42%,
+    #ffed9a 43.02%,
+    #bc814a 88.31%
+  );
+  background-color: #f3ec78;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.silver {
+  background-image: linear-gradient(
+    101.85deg,
+    #94a3b8 12.42%,
+    #e2e8f0 43.02%,
+    #64748b 88.31%
+  );
+  background-color: #f3ec78;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 

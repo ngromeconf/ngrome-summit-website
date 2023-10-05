@@ -17,16 +17,6 @@ const agenda: timelineItems[] = [
       },
       {
         duration: 25,
-        title: 'Building an Empowered Product Team',
-        speaker: 'Giuseppe Ettorre',
-        speakerImage: './speakers/giuseppe-ettorre.jpg',
-        githubUrl: 'https://github.com/peppoasap',
-        twitterUrl: '',
-        jobTitle: 'Frontend Team Lead @ INEO 🧙🏼‍♂️',
-        description: 'He considers himself a mix of creativity with a dash of technical wizardry 🖼️, a Things\' improviser 🔮, on a mission to change the world 🌎, one mad experiment at a time. As he wraps up his IT Engineering studies at Politecnico di Milano (yes, you read that right, he actually studies!), he is proving that geeks can have a wild side too 📚. He is a master chef in his own kitchen and a lone wolf adventurer, whipping up gourmet disasters 👨🏻‍🍳, traveling solo 🗺️ and as you can see… he likes emojis(sometimes too much).'
-      },
-      {
-        duration: 25,
         title: 'There\'s Safety in Angular',
         speaker: 'Alisa Duncan',
         speakerImage: './speakers/alisa-duncan.jpg',
@@ -35,4 +25,15 @@ const agenda: timelineItems[] = [
         jobTitle: 'Senior Developer Advocate at Okta',
         description: 'Alisa Duncan is a Senior Developer Advocate at Okta, a full-stack developer, content creator, conference speaker, Pluralsight author, and community builder who loves the thrill of learning new things. She is a Google Developer Expert in Angular, a Women Techmaker Ambassador, a ngGirls core team member, and a volunteer at community events supporting underrepresented groups entering tech. When not coding or volunteering, you can find her cooking, watching K-Dramas, or drinking a glass of wine.'
       },
+      {
+        duration: 25,
+        title: 'Building an Empowered Product Team',
+        speaker: 'Giuseppe Ettorre',
+        speakerImage: './speakers/giuseppe-ettorre.jpg',
+        githubUrl: 'https://github.com/peppoasap',
+        twitterUrl: '',
+        jobTitle: 'Frontend Team Lead @ INEO 🧙🏼‍♂️',
+        description: 'He considers himself a mix of creativity with a dash of technical wizardry 🖼️, a Things\' improviser 🔮, on a mission to change the world 🌎, one mad experiment at a time. As he wraps up his IT Engineering studies at Politecnico di Milano (yes, you read that right, he actually studies!), he is proving that geeks can have a wild side too 📚. He is a master chef in his own kitchen and a lone wolf adventurer, whipping up gourmet disasters 👨🏻‍🍳, traveling solo 🗺️ and as you can see… he likes emojis(sometimes too much).'
+      },
+      
     ];

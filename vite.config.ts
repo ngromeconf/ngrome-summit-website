@@ -14,10 +14,12 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     analog({
-      ssr: true,
       static: true,
       prerender: {
-        routes: async () => ['/'],
+        routes: async () => [
+          '/',
+          '/api/v1/speakers-list'
+        ],
         sitemap: {
           host: 'https://2023.ngrome.io',
         },

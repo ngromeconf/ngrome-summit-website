@@ -23,7 +23,7 @@ const agenda: timelineItems[] = [
         githubUrl: 'https://github.com/peppoasap',
         twitterUrl: '',
         jobTitle: 'Frontend Team Lead @ INEO 🧙🏼‍♂️',
-        description: 'Blending creativity with technical expertise 🖼️ - Things\' improviser and Wannabe Growth Hacker 🔮 -  Driven by desire to change the world 🌎'
+        description: 'He considers himself a mix of creativity with a dash of technical wizardry 🖼️, a Things\' improviser 🔮, on a mission to change the world 🌎, one mad experiment at a time. As he wraps up his IT Engineering studies at Politecnico di Milano (yes, you read that right, he actually studies!), he is proving that geeks can have a wild side too 📚. He is a master chef in his own kitchen and a lone wolf adventurer, whipping up gourmet disasters 👨🏻‍🍳, traveling solo 🗺️ and as you can see… he likes emojis(sometimes too much).'
       },
       {
         duration: 25,

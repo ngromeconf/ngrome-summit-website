@@ -7,21 +7,22 @@ import { SponsorsComponent } from '../components/shared/sponsors/sponsors.compon
 import { CommunityPartnerComponent } from '../components/shared/community-partner/community-partner.component';
 import { MapsComponent } from '../shared/ui/maps/maps.component';
 import { CallForPaperComponent } from '../components/pages/index/call-for-paper/call-for-paper.component';
+import { SpeakerImageComponent } from "../components/pages/index/speaker-image.component";
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  template: `
+    selector: 'app-home',
+    standalone: true,
+    template: `
     <app-hero />
     <app-sponsors />
     <app-features />
-    <app-call-for-paper />
+    <app-speaker-image />
     <app-maps />
     <app-timeline />
     <app-community-partner />
   `,
-  styles: [
-    `
+    styles: [
+        `
       .logo {
         will-change: filter;
       }
@@ -35,17 +36,18 @@ import { CallForPaperComponent } from '../components/pages/index/call-for-paper/
         color: #888;
       }
     `,
-  ],
-  imports: [
-    FooterComponent,
-    HeroComponent,
-    FeaturesComponent,
-    TimelineComponent,
-    SponsorsComponent,
-    CommunityPartnerComponent,
-    MapsComponent,
-    CallForPaperComponent,
-  ],
+    ],
+    imports: [
+        FooterComponent,
+        HeroComponent,
+        FeaturesComponent,
+        TimelineComponent,
+        SponsorsComponent,
+        CommunityPartnerComponent,
+        MapsComponent,
+        CallForPaperComponent,
+        SpeakerImageComponent
+    ]
 })
 export default class HomeComponent {
   count = 0;

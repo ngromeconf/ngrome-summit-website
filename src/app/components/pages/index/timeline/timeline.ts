@@ -1,6 +1,13 @@
 export type timelineItems = {
   duration: number;
   title: string;
+  speaker?: string;
+  jobPosition?: string;
+  speakerImage?: string;
+  githubUrl?: string,
+  twitterUrl?: string,
+  jobTitle?: string,
+  description?: string,
 };
 
 export type Timeline = {
@@ -25,7 +32,8 @@ export const TIMELINE: Timeline = {
       },
       {
         duration: 25,
-        title: 'Talk',
+        title: 'NgRx SignalStore - Journey from Vision to First Release',
+        speaker: 'Marko Stanimirović',
       },
       {
         duration: 10,
@@ -57,11 +65,13 @@ export const TIMELINE: Timeline = {
       },
       {
         duration: 25,
-        title: 'Talk',
+        title: 'Building an Empowered Product Team',
+        speaker: 'Giuseppe Ettorre',
       },
       {
         duration: 25,
-        title: 'Talk',
+        title: 'There\'s Safety in Angular',
+        speaker: 'Alisa Duncan',
       },
       {
         duration: 10,

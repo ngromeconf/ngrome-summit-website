@@ -68,6 +68,7 @@ import { TIMELINE, Timeline } from './timeline';
                     <h4 class="mb-2 font-semibold text-lg md:text-2xl">
                       {{ agenda.title }}
                     </h4>
+                     <span> {{agenda.speaker}}</span>
                   </div>
                 </div>
               </ng-container>

@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TimePipe } from './time.pipe';
-import { TIMELINE, Timeline } from './timeline';
+import { Timeline } from '../../../../models/timeline.models';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-timeline',
@@ -33,7 +35,7 @@ import { TIMELINE, Timeline } from './timeline';
             Explore full agenda</a
           > -->
         </div>
-        <div class="ml-0 w-full md:ml-12 lg:w-2/3 sticky">
+        <div class="ml-0 w-full md:ml-12 lg:w-2/3 sticky" *ngIf="agendaItems$ | async as agendaItems">
           <div class="container mx-auto w-full h-full">
             <div class="relative wrap overflow-hidden p-10 h-full">
               <div
@@ -63,7 +65,7 @@ import { TIMELINE, Timeline } from './timeline';
                     }"
                   >
                     <p class="mb-2 text-base text-red-600">
-                      {{ i | timePipe }}
+                      {{i | timePipe:agendaItems }}
                     </p>
                     <h4 class="mb-2 font-semibold text-lg md:text-2xl">
                       {{ agenda.title }}
@@ -78,8 +80,15 @@ import { TIMELINE, Timeline } from './timeline';
       </div>
     </div>
   </section>`,
-  styleUrls: ['./timeline.component.css'],
 })
 export class TimelineComponent {
-  public agendaItems: Timeline = TIMELINE;
+  public agendaItems$: Observable<Timeline>;
+
+  constructor(private http:HttpClient){
+    this.getSpeakers();
+  }
+
+  getSpeakers() {
+    this.agendaItems$ = this.http.get<Timeline>('/api/v1/timeline');
+  }
 }

@@ -17,7 +17,7 @@ import { COMMUNITIES, Communities } from './communities';
         class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
       >
         <a
-          href="#"
+          href="{{community.url}}"
           class="flex items-center lg:justify-center"
           *ngFor="let community of communities"
         >
@@ -32,7 +32,6 @@ import { COMMUNITIES, Communities } from './communities';
       </div>
     </div>
   </section>`,
-  styleUrls: ['./community-partner.component.css'],
 })
 export class CommunityPartnerComponent {
   public communities: Communities = COMMUNITIES;

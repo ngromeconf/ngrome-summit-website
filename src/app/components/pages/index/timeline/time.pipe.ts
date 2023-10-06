@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { DatePipe } from '@angular/common';
-import { Timeline, TIMELINE } from './timeline';
+import { Timeline } from '../../../../models/timeline.models';
 
 
 
@@ -8,12 +8,13 @@ import { Timeline, TIMELINE } from './timeline';
 export class TimePipe implements PipeTransform {
 
   // or use a rest parameter
-  transform(index: any): any {
-    return this.increaseTime(index, TIMELINE);
+  transform(index: any, agendaItems: Timeline): any {
+    return this.increaseTime(index, agendaItems);
   }
 
   private increaseTime(actualIndex: number, timeline: Timeline) {
-    let _startTime = timeline.startTime;
+    console.log(actualIndex, timeline);
+    let _startTime = new Date(timeline.startTime);
     let _addTime = 0;
     timeline.agenda.every((element, index) => {
       if (actualIndex === index) return false;

@@ -62,9 +62,9 @@ export const COMMUNITIES: Communities = [
         logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2Flogo%20wtm%20italia%20-%20Michela%20Bertaina.jpg?alt=media&amp;token=034fb5d6-96d8-4cdf-8f08-8590c1b8e5f7'
     },
     {
-        url: 'http://grusp.org/en',
-        name: 'Grusp',
-        logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2Fgrusp.png?alt=media&amp;token=d0a920d9-3674-4667-af65-ee05265cb819'
+        url: 'http://codemotion.com',
+        name: 'Codemotion',
+        logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2Fcodemotion.png?alt=media&token=4d49a06c-418a-48c1-bedb-16fb67ddee87&_gl=1*1v0ni3d*_ga*NzM2NjU2MDMyLjE2ODkxNjQ2MDY.*_ga_CW55HF8NVT*MTY5NjYxNTA4Ny4xNS4xLjE2OTY2MTUxMDMuNDQuMC4w'
     },
     {
         url: 'https://milanojs.com/',

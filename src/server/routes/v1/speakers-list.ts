@@ -1,5 +1,5 @@
 import { defineEventHandler } from 'h3';
-import { Timeline, timelineItems } from 'src/app/components/pages/index/timeline/timeline';
+import { timelineItems } from 'src/app/models/timeline.models';
 
 export default defineEventHandler(() => (agenda));
 

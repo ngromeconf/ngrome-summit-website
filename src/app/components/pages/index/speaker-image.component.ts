@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Timeline, timelineItems } from './timeline/timeline';
+import { Timeline, timelineItems } from '../../../models/timeline.models';
 import { Observable } from 'rxjs';
 
 @Component({

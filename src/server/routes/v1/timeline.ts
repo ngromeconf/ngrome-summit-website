@@ -1,21 +1,9 @@
-export type timelineItems = {
-  duration: number;
-  title: string;
-  speaker?: string;
-  jobPosition?: string;
-  speakerImage?: string;
-  githubUrl?: string,
-  twitterUrl?: string,
-  jobTitle?: string,
-  description?: string,
-};
+import { defineEventHandler } from 'h3';
+import { Timeline } from "src/app/models/timeline.models";
 
-export type Timeline = {
-  startTime: Date;
-  agenda: timelineItems[];
-};
+export default defineEventHandler(() => (timeline));
 
-export const TIMELINE: Timeline = {
+const timeline: Timeline = {
     startTime: new Date(2023, 11, 1, 8, 45),
     agenda: [
       {
@@ -37,7 +25,7 @@ export const TIMELINE: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lighthing talk',
+        title: 'Lightning talk',
       },
       {
         duration: 40,
@@ -49,7 +37,7 @@ export const TIMELINE: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lighthing talk',
+        title: 'Lightning talk',
       },
       {
         duration: 25,
@@ -61,7 +49,7 @@ export const TIMELINE: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lighthing talk',
+        title: 'Lightning talk',
       },
       {
         duration: 25,
@@ -75,7 +63,7 @@ export const TIMELINE: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lighthing talk',
+        title: 'Lightning talk',
       },
       {
         duration: 40,

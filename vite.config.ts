@@ -18,7 +18,8 @@ export default defineConfig(({ mode }) => ({
       prerender: {
         routes: async () => [
           '/',
-          '/api/v1/speakers-list'
+          '/api/v1/speakers-list',
+          '/api/v1/timeline'
         ],
         sitemap: {
           host: 'https://2023.ngrome.io',

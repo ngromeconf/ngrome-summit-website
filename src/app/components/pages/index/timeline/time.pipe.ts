@@ -23,7 +23,7 @@ export class TimePipe implements PipeTransform {
     });
 
     const _newDate = this.addMinutes(_startTime, _addTime);
-    return new DatePipe('en-US').transform(_newDate,'HH:mm');
+    return new DatePipe('en-US','GMT+1').transform(_newDate,'HH:mm');
     
   }
 

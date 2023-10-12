@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Timeline, timelineItems } from '../../../models/timeline.models';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
+import { timelineItems } from '../../../models/timeline.models';
 import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-speaker-image',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgOptimizedImage],
   template: `<div class="mb-16">
     <!-- Code block starts -->
 
@@ -36,9 +36,11 @@ import { Observable } from 'rxjs';
               <div class="absolute -mt-20 w-full flex justify-center">
                 <div class="h-32 w-32">
                   <img
-                    src="{{speaker.speakerImage}}"
-                    alt="Display Picture of Andres Berlin"
+                    ngSrc="{{speaker.speakerImage}}"
+                    alt="{{speaker.speaker}}"
                     role="img"
+                    width="128"
+                    height="128"
                     class="rounded-full object-cover h-full w-full shadow-md"
                   />
                 </div>
@@ -50,9 +52,9 @@ import { Observable } from 'rxjs';
                 <p class="text-gray-800 text-sm text-center">
                   {{speaker.jobTitle}}
                 </p>
-                <p class="text-center text-gray-600 text-base pt-3 font-normal invisible hidden md:visible md:block">
+                <!-- <p class="text-center text-gray-600 text-base pt-3 font-normal invisible hidden md:visible md:block">
                   {{speaker.description}}
-                </p>
+                </p> -->
                 <div class="w-full flex justify-center pt-5 pb-5">
                   <a *ngIf="speaker.githubUrl" href="{{speaker.githubUrl}}" target="_blank" class="mx-5">
                     <div aria-label="Github" role="img">

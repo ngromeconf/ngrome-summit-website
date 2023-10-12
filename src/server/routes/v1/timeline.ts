@@ -8,7 +8,7 @@ const timeline: Timeline = {
     agenda: [
       {
         duration: 60,
-        title: 'Registration & Coffee',
+        title: 'Registration',
       },
       {
         duration: 15,
@@ -25,7 +25,8 @@ const timeline: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lightning talk',
+        title: 'ELI5 Angular Hydration',
+        speaker: 'Soumaya Erradi'
       },
       {
         duration: 40,
@@ -33,7 +34,8 @@ const timeline: Timeline = {
       },
       {
         duration: 25,
-        title: 'Talk',
+        title: 'Building Bard from scratch with MakerSuite and PaLM API',
+        speaker: 'Gerard Sans'
       },
       {
         duration: 10,
@@ -53,7 +55,7 @@ const timeline: Timeline = {
       },
       {
         duration: 25,
-        title: 'Building an Empowered Product Team',
+        title: 'All Roads Lead to Rome: Building an Empowered Product Team',
         speaker: 'Giuseppe Ettorre',
       },
       {

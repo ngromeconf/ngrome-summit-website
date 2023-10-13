@@ -35,5 +35,25 @@ const agenda: timelineItems[] = [
         jobTitle: 'Frontend Team Lead @ INEO 🧙🏼‍♂️',
         description: 'He considers himself a mix of creativity with a dash of technical wizardry 🖼️, a Things\' improviser 🔮, on a mission to change the world 🌎, one mad experiment at a time. As he wraps up his IT Engineering studies at Politecnico di Milano (yes, you read that right, he actually studies!), he is proving that geeks can have a wild side too 📚. He is a master chef in his own kitchen and a lone wolf adventurer, whipping up gourmet disasters 👨🏻‍🍳, traveling solo 🗺️ and as you can see… he likes emojis(sometimes too much).'
       },
+      {
+        duration: 25,
+        title: 'ELI5 Angular Hydration',
+        speaker: 'Soumaya Erradi',
+        speakerImage: './speakers/soumaya-erradi.jpg',
+        githubUrl: 'https://github.com/soumayaerradi',
+        twitterUrl: 'https://twitter.com/sumy92',
+        jobTitle: 'Software developer and an IT teacher @Scaling parrots',
+        description: 'I\'m a software developer and an IT teacher. I\'m high skilled in web development (frontend and backend), specialized in developing enterprise applications using Angular. Currently, I\'m working as frontend lead developer in a team focused on blockchain app development. I\'m also holding coding courses and meetups to deepen technical and business issues related to Blockchain and Smart Contracts. As a speaker at conferences I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for decentralized applications and web3.'
+      },
+      {
+        duration: 25,
+        title: 'Building Bard from scratch with MakerSuite and PaLM API',
+        speaker: 'Gerard Sans',
+        speakerImage: './speakers/gerard-sans.jpg',
+        githubUrl: 'https://github.com/soumayaerradi',
+        twitterUrl: 'https://twitter.com/gerardsans',
+        jobTitle: 'Angular GDE',
+        description: ''
+      },
       
     ];

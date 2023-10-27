@@ -16,7 +16,8 @@ const timeline: Timeline = {
       },
       {
         duration: 40,
-        title: 'Opening Keynote ',
+        title: 'Quo vadis, Angular?',
+        speaker: 'Pawel Kozlowski',
       },
       {
         duration: 25,
@@ -39,7 +40,8 @@ const timeline: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lightning talk',
+        title: 'Implementa il backend della tua applicazione con Azure Functions, NodeJS e Copilot!',
+        speaker: 'Massimo Bonanni',
       },
       {
         duration: 25,
@@ -52,6 +54,7 @@ const timeline: Timeline = {
       {
         duration: 10,
         title: 'Lightning talk',
+        speaker: 'Davide Passafaro & Giorgio Galassi',
       },
       {
         duration: 25,
@@ -65,7 +68,8 @@ const timeline: Timeline = {
       },
       {
         duration: 10,
-        title: 'Lightning talk',
+        title: 'Harnessing the Power of Signals in Angular Applications',
+        speaker: 'Mateusz',
       },
       {
         duration: 40,
@@ -73,11 +77,18 @@ const timeline: Timeline = {
       },
       {
         duration: 25,
-        title: 'Talk',
+        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
+        speaker: 'Fabian Grosebrink',
+      },
+      {
+        duration: 10,
+        title: 'Reactive Powered: Angular Forms with RxJS',
+        speaker: 'Shumela Jacobs',
       },
       {
         duration: 40,
-        title: 'Keynote',
+        title: 'The era of Angular intelligent apps, with Azure Open AI',
+        speaker: 'Natalia Venditto',
       },
       {
         duration: 10,

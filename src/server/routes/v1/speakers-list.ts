@@ -113,6 +113,6 @@ const agenda: timelineItems[] = [
         githubUrl: 'https://github.com/anfibiacreativa',
         twitterUrl: 'https://twitter.com/AnfibiaCreativa',
         jobTitle: 'Principal Lead JavaScript e2e DX @Microsoft #Azure. Wasm. Devtools.',
-        description: 'Natalia has worked in the roles of frontend developer, full-stack developer, technical lead, software and solutions architect. Now she leads the end-to-end developer experience for JavaScript and Node.js, on Azure. Natalia is also part of the Google Developer Experts for Angular and Web Technologies, and Google Mentors programs, and an MVP award for Developer Technologies.'
+        description: 'My name is Natalia Venditto, I was born in 🇺🇾 and I currently work in the role of Principal Program Manager with Microsoft, leading the JavaScript and Node.js e2e developer experience on Azure, (Dev Tools, DX).I\'ve been in tech for a while, also in the roles of Principal Solutions Architect for the Adobe tech stack, Principal Frontend Engineer at Cognizant, Senior Solutions Architect with MongoDB, and full-stack freelance developer and consultant. I\'m also an international technical public speaker.'
       }
     ];

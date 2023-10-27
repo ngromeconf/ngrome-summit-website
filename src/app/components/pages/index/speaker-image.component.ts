@@ -60,7 +60,7 @@ import { Observable } from 'rxjs';
                     <a
                       *ngIf="speaker.githubUrl"
                       target="_blank"
-                      href="speaker.githubUrl"
+                      href="{{ speaker.githubUrl }}"
                       class="mx-5"
                     >
                       <div aria-label="Github" role="img">
@@ -85,7 +85,7 @@ import { Observable } from 'rxjs';
                     <a
                       *ngIf="speaker.twitterUrl"
                       target="_blank"
-                      href="speaker.twitterUrl"
+                      href="{{ speaker.twitterUrl }}"
                       class="mx-5"
                     >
                       <div aria-label="Twitter" role="img">

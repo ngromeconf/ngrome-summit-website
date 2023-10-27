@@ -6,6 +6,16 @@ export default defineEventHandler(() => (agenda));
 
 const agenda: timelineItems[] = [
       {
+        duration: 40,
+        title: 'Quo vadis, Angular?',
+        speaker: 'Pawel Kozlowski',
+        speakerImage: './speakers/pawel-kozlowski.jpg',
+        githubUrl: 'https://github.com/pkozlowski-opensource',
+        twitterUrl: 'https://twitter.com/pkozlowski_os',
+        jobTitle: 'Senior Frontend Developer at Google, Angular core team, open source enthusiast',
+        description: 'This year, people have noticed something interesting is happening with Angular. The pace of feature development has taken off, and the framework seems to be moving forward by leaps and bounds! What’s going on? More importantly - how all those new features fit together into the cohesive story? This talk is the overview of the recent changes in Angular, the larger philosophy behind those changes as well as the glimpse into the future work.'
+      },
+      {
         duration: 25,
         title: 'NgRx SignalStore - Journey from Vision to First Release',
         speaker: 'Marko Stanimirović',
@@ -16,27 +26,7 @@ const agenda: timelineItems[] = [
         description: 'Marko is a Principal Frontend Engineer at Swiss Marketplace Group. He is also a core member of the NgRx and AnalogJS teams, a Google Developer Expert in Angular, and an organizer of the Angular Belgrade group. Marko actively contributes to open-source software, shares knowledge through technical articles and talks, and enjoys playing the guitar. He holds a Master of Science in Software Engineering from the University of Belgrade.'
       },
       {
-        duration: 25,
-        title: 'There\'s Safety in Angular',
-        speaker: 'Alisa Duncan',
-        speakerImage: './speakers/alisa-duncan.jpg',
-        githubUrl: 'https://github.com/alisaduncan',
-        twitterUrl: 'https://twitter.com/AlisaDuncan',
-        jobTitle: 'Senior Developer Advocate at Okta',
-        description: 'Alisa Duncan is a Senior Developer Advocate at Okta, a full-stack developer, content creator, conference speaker, Pluralsight author, and community builder who loves the thrill of learning new things. She is a Google Developer Expert in Angular, a Women Techmaker Ambassador, a ngGirls core team member, and a volunteer at community events supporting underrepresented groups entering tech. When not coding or volunteering, you can find her cooking, watching K-Dramas, or drinking a glass of wine.'
-      },
-      {
-        duration: 25,
-        title: 'Building an Empowered Product Team',
-        speaker: 'Giuseppe Ettorre',
-        speakerImage: './speakers/giuseppe-ettorre.jpg',
-        githubUrl: 'https://github.com/peppoasap',
-        twitterUrl: '',
-        jobTitle: 'Frontend Team Lead @ INEO 🧙🏼‍♂️',
-        description: 'He considers himself a mix of creativity with a dash of technical wizardry 🖼️, a Things\' improviser 🔮, on a mission to change the world 🌎, one mad experiment at a time. As he wraps up his IT Engineering studies at Politecnico di Milano (yes, you read that right, he actually studies!), he is proving that geeks can have a wild side too 📚. He is a master chef in his own kitchen and a lone wolf adventurer, whipping up gourmet disasters 👨🏻‍🍳, traveling solo 🗺️ and as you can see… he likes emojis(sometimes too much).'
-      },
-      {
-        duration: 25,
+        duration: 10,
         title: 'ELI5 Angular Hydration',
         speaker: 'Soumaya Erradi',
         speakerImage: './speakers/soumaya-erradi.jpg',
@@ -55,5 +45,74 @@ const agenda: timelineItems[] = [
         jobTitle: 'Angular GDE',
         description: ''
       },
-      
+      {
+        duration: 10,
+        title: 'Implementa il backend della tua applicazione con Azure Functions, NodeJS e Copilot!',
+        speaker: 'Massimo Bonanni',
+        speakerImage: './speakers/massimo-bonanni.jpg',
+        githubUrl: 'https://github.com/massimobonanni',
+        twitterUrl: 'https://twitter.com/massimobonanni',
+        jobTitle: 'Microsoft Technial Speaker',
+        description: 'Paranormal Trainer, with the head in the Cloud and all the REST in microservices! Helping people to achive more with their technical skills!!!'
+      },
+      {
+        duration: 25,
+        title: 'Building an Empowered Product Team',
+        speaker: 'Giuseppe Ettorre',
+        speakerImage: './speakers/giuseppe-ettorre.jpg',
+        githubUrl: 'https://github.com/peppoasap',
+        twitterUrl: '',
+        jobTitle: 'Frontend Team Lead @ INEO 🧙🏼‍♂️',
+        description: 'He considers himself a mix of creativity with a dash of technical wizardry 🖼️, a Things\' improviser 🔮, on a mission to change the world 🌎, one mad experiment at a time. As he wraps up his IT Engineering studies at Politecnico di Milano (yes, you read that right, he actually studies!), he is proving that geeks can have a wild side too 📚. He is a master chef in his own kitchen and a lone wolf adventurer, whipping up gourmet disasters 👨🏻‍🍳, traveling solo 🗺️ and as you can see… he likes emojis(sometimes too much).'
+      },
+      {
+        duration: 25,
+        title: 'There\'s Safety in Angular',
+        speaker: 'Alisa Duncan',
+        speakerImage: './speakers/alisa-duncan.jpg',
+        githubUrl: 'https://github.com/alisaduncan',
+        twitterUrl: 'https://twitter.com/AlisaDuncan',
+        jobTitle: 'Senior Developer Advocate at Okta',
+        description: 'Alisa Duncan is a Senior Developer Advocate at Okta, a full-stack developer, content creator, conference speaker, Pluralsight author, and community builder who loves the thrill of learning new things. She is a Google Developer Expert in Angular, a Women Techmaker Ambassador, a ngGirls core team member, and a volunteer at community events supporting underrepresented groups entering tech. When not coding or volunteering, you can find her cooking, watching K-Dramas, or drinking a glass of wine.'
+      },
+      {
+        duration: 10,
+        title: 'Harnessing the Power of Signals in Angular Applications',
+        speaker: 'Mateusz Stefańczyk',
+        speakerImage: './speakers/mateusz-stefańczyk.jpg',
+        githubUrl: 'https://github.com/stefanoww',
+        twitterUrl: 'https://twitter.com/m_stefanczyk',
+        jobTitle: 'Angular Developer w House Of Angular',
+        description: 'Team leader of the Angular team at House of Angular company and a blogger on the angular.love blog, where he shares knowledge and experience about Angular. He develops Angular web applications and is passionate about business analysis and designing custom web application architectures. Mateusz is also keen on gaining expertise in the field of reverse engineering.'
+      },
+      {
+        duration: 25,
+        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
+        speaker: 'Fabian Gosebrink',
+        speakerImage: './speakers/fabian-gosebrink.jpg',
+        githubUrl: 'https://github.com/FabianGosebrink',
+        twitterUrl: 'https://twitter.com/FabianGosebrink',
+        jobTitle: 'Microsoft MVP, Google Developer Expert, Founder of Offering Solutions Software and .NET Day Switzerland, International Speaker, Pluralsight Author, Developer, Consultant, Trainer',
+        description: 'Fabian Gosebrink is Microsoft MVP, Google Developer Expert, Pluralsight author, Angular & ASP.NET Core web developer and international speaker. As a software engineer, consultant and trainer, he supports customers building web applications with more than 10 years of experience. Fabian is very active in the community such as leading the swiss angular community „SwissAngular“, the .NET user group in Zurich, leading the largest german speaking C#-Community (mycsharp.de), being an egghead and Pluralsight trainer as well as running his own company Offering Solutions Software with a course and learning platform and is speaking at local user groups and international conferences.'
+      },
+      {
+        duration: 10,
+        title: 'Reactive Powered: Angular Forms with RxJS',
+        speaker: 'Shmuela Jacobs',
+        speakerImage: './speakers/shmuela-jacobs.jpg',
+        githubUrl: 'https://github.com/shmool',
+        twitterUrl: 'https://twitter.com/shmuelaj',
+        jobTitle: 'Hi! :) I\'m a Web Development Consultant and Trainer, Founder-CEO @ ngGirls, Google Developer Expert in Web Technologies & Angular',
+        description: 'Shmuela Jacobs is a proud ngMom of two ngBoys and a baby ngGirl, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer. She\'s the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics.'
+      },
+      {
+        duration: 40,
+        title: 'The era of Angular intelligent apps, with Azure Open AI',
+        speaker: 'Natalia Venditto',
+        speakerImage: './speakers/natalia-venditto.jpg',
+        githubUrl: 'https://github.com/anfibiacreativa',
+        twitterUrl: 'https://twitter.com/AnfibiaCreativa',
+        jobTitle: 'Principal Lead JavaScript e2e DX @Microsoft #Azure. Wasm. Devtools.',
+        description: 'Natalia has worked in the roles of frontend developer, full-stack developer, technical lead, software and solutions architect. Now she leads the end-to-end developer experience for JavaScript and Node.js, on Azure. Natalia is also part of the Google Developer Experts for Angular and Web Technologies, and Google Mentors programs, and an MVP award for Developer Technologies.'
+      }
     ];

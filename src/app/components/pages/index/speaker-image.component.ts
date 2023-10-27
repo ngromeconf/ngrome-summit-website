@@ -59,7 +59,8 @@ import { Observable } from 'rxjs';
                   <div class="w-full flex justify-center pt-5 pb-5">
                     <a
                       *ngIf="speaker.githubUrl"
-                      href="javascript:void(0)"
+                      target="_blank"
+                      href="speaker.githubUrl"
                       class="mx-5"
                     >
                       <div aria-label="Github" role="img">
@@ -83,7 +84,8 @@ import { Observable } from 'rxjs';
                     </a>
                     <a
                       *ngIf="speaker.twitterUrl"
-                      href="javascript:void(0)"
+                      target="_blank"
+                      href="speaker.twitterUrl"
                       class="mx-5"
                     >
                       <div aria-label="Twitter" role="img">

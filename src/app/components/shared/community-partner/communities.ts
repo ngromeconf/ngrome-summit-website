@@ -22,6 +22,16 @@ export const COMMUNITIES: Communities = [
         logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2Fangular-love.jpeg?alt=media&amp;token=d8fc89eb-2354-455b-9a92-ae91081343a4'
     },
     {
+        url: 'https://www.wearedevelopers.com/',
+        name: 'WeAreDevelopers',
+        logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2FWeAreDevelopers_Positiv.png?alt=media&token=2becfbee-eeb6-4c3e-a5bf-722f2e45f15f&_gl=1*1upw65f*_ga*NzM2NjU2MDMyLjE2ODkxNjQ2MDY.*_ga_CW55HF8NVT*MTY5NzE5MDQ3NC4xNy4xLjE2OTcxOTA1MjMuMTEuMC4w'
+    },
+    {
+        url: 'https://www.wearedevelopers.com/',
+        name: 'https://analogjs.org/',
+        logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2Fanalog-logo.svg?alt=media&token=79f9ac08-9c02-4a84-904d-50f70681a5ea&_gl=1*8dhdph*_ga*NzM2NjU2MDMyLjE2ODkxNjQ2MDY.*_ga_CW55HF8NVT*MTY5NzE5MDQ3NC4xNy4xLjE2OTcxOTA2MzkuMzcuMC4w'
+    },
+    {
         url: 'https://www.meetup.com/GDG-Pescara/',
         name: 'GDG Pescara',
         logoUrl: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/partner%2Flogo%20-%20GDG%20Pescara.png?alt=media&amp;token=7eb5b338-bb10-404a-8adb-ccfb503f5d8f'

@@ -69,7 +69,7 @@ const timeline: Timeline = {
       {
         duration: 10,
         title: 'Harnessing the Power of Signals in Angular Applications',
-        speaker: 'Mateusz',
+        speaker: 'Mateusz Stefańczyk',
       },
       {
         duration: 40,

@@ -46,7 +46,7 @@ const agenda: timelineItems[] = [
         description: ''
       },
       {
-        duration: 10,
+        duration: 25,
         title: 'Implement the backend of your application with Azure Functions, NodeJS!',
         speaker: 'Massimo Bonanni',
         speakerImage: './speakers/massimo-bonanni.jpeg',

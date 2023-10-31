@@ -96,16 +96,6 @@ const agenda: timelineItems[] = [
         description: 'Fabian Gosebrink is Microsoft MVP, Google Developer Expert, Pluralsight author, Angular & ASP.NET Core web developer and international speaker. As a software engineer, consultant and trainer, he supports customers building web applications with more than 10 years of experience. Fabian is very active in the community such as leading the swiss angular community „SwissAngular“, the .NET user group in Zurich, leading the largest german speaking C#-Community (mycsharp.de), being an egghead and Pluralsight trainer as well as running his own company Offering Solutions Software with a course and learning platform and is speaking at local user groups and international conferences.'
       },
       {
-        duration: 10,
-        title: 'Reactive Powered: Angular Forms with RxJS',
-        speaker: 'Shmuela Jacobs',
-        speakerImage: './speakers/shmuela-jacobs.png',
-        githubUrl: 'https://github.com/shmool',
-        twitterUrl: 'https://twitter.com/shmuelaj',
-        jobTitle: 'Hi! :) I\'m a Web Development Consultant and Trainer, Founder-CEO @ ngGirls, Google Developer Expert in Web Technologies & Angular',
-        description: 'Shmuela Jacobs is a proud ngMom of two ngBoys and a baby ngGirl, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer. She\'s the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics.'
-      },
-      {
         duration: 40,
         title: 'The era of Angular intelligent apps, with Azure Open AI',
         speaker: 'Natalia Venditto',

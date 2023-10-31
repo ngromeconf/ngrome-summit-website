@@ -40,7 +40,7 @@ const timeline: Timeline = {
       },
       {
         duration: 10,
-        title: 'Implementa il backend della tua applicazione con Azure Functions, NodeJS e Copilot!',
+        title: 'Implement the backend of your application with Azure Functions, NodeJS!',
         speaker: 'Massimo Bonanni',
       },
       {

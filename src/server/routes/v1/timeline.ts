@@ -39,7 +39,7 @@ const timeline: Timeline = {
         speaker: 'Gerard Sans'
       },
       {
-        duration: 10,
+        duration: 25,
         title: 'Implement the backend of your application with Azure Functions, NodeJS!',
         speaker: 'Massimo Bonanni',
       },
@@ -52,7 +52,7 @@ const timeline: Timeline = {
         title: 'Networking & Lunch',
       },
       {
-        duration: 10,
+        duration: 20,
         title: 'Lightning talk',
         speaker: 'Davide Passafaro & Giorgio Galassi',
       },
@@ -79,11 +79,6 @@ const timeline: Timeline = {
         duration: 25,
         title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
         speaker: 'Fabian Grosebrink',
-      },
-      {
-        duration: 10,
-        title: 'Reactive Powered: Angular Forms with RxJS',
-        speaker: 'Shumela Jacobs',
       },
       {
         duration: 40,

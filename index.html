@@ -10,8 +10,26 @@
     <link rel="dns-prefetch" href="//www.google.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 
+    <!-- Google Consent Mode -->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "denied",
+        personalization_storage: "denied",
+        security_storage: "granted",
+        wait_for_update: 500
+      });
+      gtag("set", "ads_data_redaction", true);
+      gtag("set", "url_passthrough", true);
+    </script>
+    <!-- End Google Consent Mode-->
     <!-- Google Tag Manager -->
-    <script>
+    <script data-cookieconsent="ignore">
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -24,6 +42,15 @@
       })(window, document, 'script', 'dataLayer', 'GTM-NVN42N2B');
     </script>
     <!-- End Google Tag Manager -->
+    <!-- Cookiebot CMP-->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="abcdef12-3456-7890-abcd-ef1234567890"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <!-- End Cookiebot CMP -->
 
     <meta
       name="keywords"
@@ -87,14 +114,6 @@
 
     <app-root></app-root>
 
-    <!-- CookieBot banner -->
-    <script
-      id="CookieDeclaration"
-      src="https://consent.cookiebot.com/60b2c0cd-6eef-4efb-b907-737357a4bff1/cd.js"
-      type="text/javascript"
-      async
-    ></script>
-    <!-- End CookieBot banner -->
 
     <script type="module" src="/src/main.ts"></script>
   </body>

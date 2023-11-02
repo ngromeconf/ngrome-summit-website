@@ -50,6 +50,8 @@ import { CommonModule } from '@angular/common';
         <div class="w-full md:w-6/12 mr-auto ml-auto">
           <div class="relative w-full h-96" >
             <iframe
+              fetchpriority="low"
+              title="Microsoft: Via Avignone, 10, 00144 Roma RM"
               class="absolute top-0 left-0 w-full h-full"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11893.301387767895!2d12.4587945!3d41.8212919!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258b3c68c87603%3A0x6f408f20a8cbe525!2sMicrosoft!5e0!3m2!1sit!2sit!4v1691055519409!5m2!1sit!2sit"
               frameborder="0"

@@ -13,7 +13,6 @@ export class TimePipe implements PipeTransform {
   }
 
   private increaseTime(actualIndex: number, timeline: Timeline) {
-    console.log(actualIndex, timeline);
     let _startTime = new Date(timeline.startTime);
     let _addTime = 0;
     timeline.agenda.every((element, index) => {

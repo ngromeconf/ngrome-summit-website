@@ -10,26 +10,8 @@
     <link rel="dns-prefetch" href="//www.google.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 
-    <!-- Google Consent Mode -->
-    <script data-cookieconsent="ignore">
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("consent", "default", {
-        ad_storage: "denied",
-        analytics_storage: "denied",
-        functionality_storage: "denied",
-        personalization_storage: "denied",
-        security_storage: "granted",
-        wait_for_update: 500
-      });
-      gtag("set", "ads_data_redaction", true);
-      gtag("set", "url_passthrough", true);
-    </script>
-    <!-- End Google Consent Mode-->
     <!-- Google Tag Manager -->
-    <script data-cookieconsent="ignore">
+    <script data-cookie-consent="tracking">
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -42,15 +24,6 @@
       })(window, document, 'script', 'dataLayer', 'GTM-NVN42N2B');
     </script>
     <!-- End Google Tag Manager -->
-    <!-- Cookiebot CMP-->
-    <script
-      id="Cookiebot"
-      src="https://consent.cookiebot.com/uc.js"
-      data-cbid="abcdef12-3456-7890-abcd-ef1234567890"
-      data-blockingmode="auto"
-      type="text/javascript"
-    ></script>
-    <!-- End Cookiebot CMP -->
 
     <meta
       name="keywords"
@@ -101,6 +74,38 @@
     class="leading-normal tracking-normal text-gray-400 bg-cover bg-fixed"
     style="background-image: url('/header.jpg')"
   >
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script
+      type="text/javascript"
+      src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" charset="UTF-8">
+      document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({
+          notice_banner_type: 'simple',
+          consent_type: 'express',
+          palette: 'light',
+          language: 'en',
+          page_load_consent_levels: ['strictly-necessary'],
+          notice_banner_reject_button_hide: false,
+          preferences_center_close_button_hide: false,
+          page_refresh_confirmation_buttons: false,
+          website_name: '2023.ngrome.io',
+        });
+      });
+    </script>
+
+    <noscript
+      >Free cookie consent management tool by
+      <a href="https://www.termsfeed.com/">TermsFeed</a></noscript
+    >
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+    <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+    <!-- <a href="#" id="open_preferences_center">Update cookies preferences</a> -->
+
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -113,7 +118,6 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <app-root></app-root>
-
 
     <script type="module" src="/src/main.ts"></script>
   </body>

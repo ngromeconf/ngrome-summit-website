@@ -35,7 +35,6 @@ export class ButtonTicketComponent {
     else {
       this.scrolled = false;
     }
-    console.log(this.scrolled);
   }
 
 }

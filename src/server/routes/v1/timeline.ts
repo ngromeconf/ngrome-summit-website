@@ -7,11 +7,11 @@ const timeline: Timeline = {
     startTime: new Date(2023, 11, 1, 8, 45),
     agenda: [
       {
-        duration: 60,
+        duration: 50,
         title: 'Registration',
       },
       {
-        duration: 15,
+        duration: 10,
         title: 'Opening Remarks',
       },
       {
@@ -25,36 +25,60 @@ const timeline: Timeline = {
         speaker: 'Marko Stanimirović',
       },
       {
-        duration: 10,
-        title: 'ELI5 Angular Hydration',
-        speaker: 'Soumaya Erradi'
+        duration: 25,
+        title: 'Panel',
       },
+      
+      
       {
         duration: 40,
         title: 'Coffee Break',
       },
       {
-        duration: 25,
-        title: 'Building Bard from scratch with MakerSuite and PaLM API',
-        speaker: 'Gerard Sans'
+        duration: 10,
+        title: 'ELI5 Angular Hydration',
+        speaker: 'Soumaya Erradi'
+      },
+      {
+        duration: 20,
+        title: 'Implement the backend of your application with Azure Functions, NodeJS!',
+        speaker: 'Massimo Bonanni',
       },
       {
         duration: 25,
-        title: 'Implement the backend of your application with Azure Functions, NodeJS!',
-        speaker: 'Massimo Bonanni',
+        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
+        speaker: 'Fabian Grosebrink',
       },
       {
         duration: 25,
         title: 'Panel',
       },
       {
-        duration: 90,
+        duration: 80,
         title: 'Networking & Lunch',
+      },
+      {
+        duration: 10,
+        title: 'Harnessing the Power of Signals in Angular Applications',
+        speaker: 'Mateusz Stefańczyk',
+      },
+      {
+        duration: 25,
+        title: 'There\'s Safety in Angular',
+        speaker: 'Alisa Duncan',
       },
       {
         duration: 20,
         title: 'Lightning talk',
-        speaker: 'Davide Passafaro & Giorgio Galassi',
+        speaker: 'Davide Passafaro',
+      },
+      {
+        duration: 25,
+        title: 'Panel',
+      },
+      {
+        duration: 40,
+        title: 'Coffee Break',
       },
       {
         duration: 25,
@@ -63,22 +87,8 @@ const timeline: Timeline = {
       },
       {
         duration: 25,
-        title: 'There\'s Safety in Angular',
-        speaker: 'Alisa Duncan',
-      },
-      {
-        duration: 10,
-        title: 'Harnessing the Power of Signals in Angular Applications',
-        speaker: 'Mateusz Stefańczyk',
-      },
-      {
-        duration: 40,
-        title: 'Coffee Break',
-      },
-      {
-        duration: 25,
-        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
-        speaker: 'Fabian Grosebrink',
+        title: 'Building Bard from scratch with MakerSuite and PaLM API',
+        speaker: 'Gerard Sans'
       },
       {
         duration: 40,

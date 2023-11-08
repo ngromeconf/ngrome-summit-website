@@ -46,8 +46,8 @@ const timeline: Timeline = {
       },
       {
         duration: 25,
-        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
-        speaker: 'Fabian Grosebrink',
+        title: 'Talk',
+        speaker: '',
       },
       {
         duration: 25,

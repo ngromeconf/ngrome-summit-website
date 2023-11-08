@@ -85,16 +85,7 @@ const agenda: timelineItems[] = [
         jobTitle: 'Angular Developer w House Of Angular',
         description: 'Team leader of the Angular team at House of Angular company and a blogger on the angular.love blog, where he shares knowledge and experience about Angular. He develops Angular web applications and is passionate about business analysis and designing custom web application architectures. Mateusz is also keen on gaining expertise in the field of reverse engineering.'
       },
-      {
-        duration: 25,
-        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
-        speaker: 'Fabian Gosebrink',
-        speakerImage: './speakers/fabian-gosebrink.jpeg',
-        githubUrl: 'https://github.com/FabianGosebrink',
-        twitterUrl: 'https://twitter.com/FabianGosebrink',
-        jobTitle: 'Microsoft MVP, Google Developer Expert, Founder of Offering Solutions Software and .NET Day Switzerland, International Speaker, Pluralsight Author, Developer, Consultant, Trainer',
-        description: 'Fabian Gosebrink is Microsoft MVP, Google Developer Expert, Pluralsight author, Angular & ASP.NET Core web developer and international speaker. As a software engineer, consultant and trainer, he supports customers building web applications with more than 10 years of experience. Fabian is very active in the community such as leading the swiss angular community „SwissAngular“, the .NET user group in Zurich, leading the largest german speaking C#-Community (mycsharp.de), being an egghead and Pluralsight trainer as well as running his own company Offering Solutions Software with a course and learning platform and is speaking at local user groups and international conferences.'
-      },
+     
       {
         duration: 40,
         title: 'The era of Angular intelligent apps, with Azure Open AI',

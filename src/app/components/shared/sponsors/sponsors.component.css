@@ -42,3 +42,18 @@
   -moz-text-fill-color: transparent;
 }
 
+.bronze {
+  background-image: linear-gradient(
+    101.85deg,
+    #804A00 12.42%,
+    #B08D57 43.02%,
+    #895E1A 88.31%
+  );
+  background-color: #B08D57;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+

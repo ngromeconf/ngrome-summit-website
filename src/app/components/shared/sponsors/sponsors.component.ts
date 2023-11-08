@@ -62,7 +62,7 @@ export interface SponsorInterface {
         >
           <li class="flex place-content-center">
             <div
-              class="relative block overflow-hidden bg-white w-6/12 shadow-lg rounded-lg text-center p-8"
+              class="relative block overflow-hidden bg-white w-8/12 shadow-lg rounded-lg text-center p-8"
             >
               <span
                 class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-600"
@@ -86,7 +86,7 @@ export interface SponsorInterface {
     </ul>
     <ul
       role="list"
-      class="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
+      class="mt-8 flex flex-col md:flex-row items-center justify-center gap-x-8 gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
       <li *ngFor="let item of silverSponsor">
         <div class="flex items-center justify-center w-full">
           <div class="w-5/12 md:w-3/12 bg-black rounded-t-lg border-4 border-black">
@@ -120,9 +120,11 @@ export interface SponsorInterface {
         </ul>
       </li>
     </ul>
+    
     <ul
       role="list"
-      class="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
+      class="mt-8 flex flex-col md:flex-row items-center justify-center gap-x-8 gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
+      >
       <li *ngFor="let item of bronzeSponsor">
         <div class="flex items-center justify-center w-full">
           <div class="w-5/12 md:w-4/12 bg-black rounded-t-lg border-4 border-black">

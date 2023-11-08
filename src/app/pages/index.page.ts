@@ -8,12 +8,14 @@ import { CommunityPartnerComponent } from '../components/shared/community-partne
 import { MapsComponent } from '../shared/ui/maps/maps.component';
 import { CallForPaperComponent } from '../components/pages/index/call-for-paper/call-for-paper.component';
 import { SpeakerImageComponent } from "../components/pages/index/speaker-image.component";
+import { WorkshopsComponent } from "../components/pages/index/workshops.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     template: `
     <app-hero />
+    <app-workshops/>
     <app-sponsors />
     <app-features />
     <app-speaker-image />
@@ -46,7 +48,8 @@ import { SpeakerImageComponent } from "../components/pages/index/speaker-image.c
         CommunityPartnerComponent,
         MapsComponent,
         CallForPaperComponent,
-        SpeakerImageComponent
+        SpeakerImageComponent,
+        WorkshopsComponent
     ]
 })
 export default class HomeComponent {

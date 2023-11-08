@@ -15,9 +15,9 @@ import { WorkshopsComponent } from "../components/pages/index/workshops.componen
     standalone: true,
     template: `
     <app-hero />
+    <app-workshops/>
     <app-sponsors />
     <app-features />
-    <app-workshops/>
     <app-speaker-image />
     <app-maps />
     <app-timeline />

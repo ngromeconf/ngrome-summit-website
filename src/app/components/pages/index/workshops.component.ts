@@ -96,7 +96,7 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
               <div class="flex items-center flex-wrap">
                 <a
                   class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
-                  href=""
+                  href="https://www.ng-girls.org/event/rome-2023"
                   target="_blank"
                   >Register
                   <svg

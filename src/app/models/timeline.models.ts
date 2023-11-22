@@ -8,6 +8,7 @@ export type timelineItems = {
   twitterUrl?: string,
   jobTitle?: string,
   description?: string,
+  svgIcon?: string;
 };
 
 export type Timeline = {

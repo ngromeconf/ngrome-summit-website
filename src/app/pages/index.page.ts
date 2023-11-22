@@ -53,9 +53,5 @@ import { WorkshopsComponent } from "../components/pages/index/workshops.componen
     ]
 })
 export default class HomeComponent {
-  count = 0;
 
-  increment() {
-    this.count++;
-  }
 }

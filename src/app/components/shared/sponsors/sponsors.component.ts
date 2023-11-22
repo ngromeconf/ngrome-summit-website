@@ -127,7 +127,7 @@ export interface SponsorInterface {
       >
       <li *ngFor="let item of bronzeSponsor">
         <div class="flex items-center justify-center w-full">
-          <div class="w-5/12 md:w-4/12 bg-black rounded-t-lg border-4 border-black">
+          <div class="w-6/12 md:w-8/12 bg-black rounded-t-lg border-4 border-black">
             <h1 class="text-sm bronze font-bold uppercase">BRONZE PARTNER</h1>
           </div>
         </div>
@@ -137,10 +137,47 @@ export interface SponsorInterface {
         >
           <li class="flex place-content-center">
             <div
-              class="relative block overflow-hidden bg-white w-5/12 shadow-lg rounded-lg text-center p-8"
+              class="relative block overflow-hidden bg-white w-8/12 shadow-lg rounded-lg text-center p-8"
             >
               <span
                 class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-yellow-700 via-yellow-600 to-yellow-800"
+              ></span>
+              <a [href]="item.url" target="_blank">
+                <img
+                  [alt]="item.name"
+                  loading="lazy"
+                  width="658"
+                  height="140"
+                  decoding="async"
+                  data-nimg="1"
+                  style="color:transparent"
+                  [ngSrc]="item.image"
+              /></a>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      role="list"
+      class="mt-8 flex flex-col md:flex-row items-center justify-center gap-x-8 gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
+      >
+      <li *ngFor="let item of diversitySponsor">
+        <div class="flex items-center justify-center w-full">
+          <div class="w-6/12 md:w-8/12 bg-black rounded-t-lg border-4 border-black">
+            <h1 class="text-sm diversity font-bold uppercase">DIVERSITY PARTNER</h1>
+          </div>
+        </div>
+        <ul
+          role="list"
+          class="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
+        >
+          <li class="flex place-content-center">
+            <div
+              class="relative block overflow-hidden bg-white w-8/12 shadow-lg rounded-lg text-center p-8"
+            >
+              <span
+                class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-pink-500 via-yellow-600 to-fuchsia-800"
               ></span>
               <a [href]="item.url" target="_blank">
                 <img
@@ -200,11 +237,23 @@ export class SponsorsComponent {
       image: './sponsors/angular_wordmark_gradient.png',
       url: 'https://www.angular.dev/',
     },
-    
     {
       name: 'ConTe.it',
       image: './sponsors/conte-logo.svg',
       url: 'https://www.conte.it/',
+    },
+    {
+      name: 'Sticker Mule',
+      image: './sponsors/sticker-mule-logo.svg',
+      url: 'https://www.stickermule.com/it/adesivi-personalizzati',
+    },
+    
+  ];
+  public diversitySponsor: SponsorInterface[] = [
+    {
+      name: 'Okta',
+      image: './sponsors/Okta-logo.svg',
+      url: 'https://www.okta.com/',
     },
   ];
 }

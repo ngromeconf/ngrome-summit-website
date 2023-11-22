@@ -57,3 +57,19 @@
   -moz-text-fill-color: transparent;
 }
 
+.diversity {
+  background-image: linear-gradient(
+    101.85deg,
+    #ec4899 12.42%,
+    #fde047 43.02%,
+    #a21caf 88.31%
+    
+  );
+  background-color: #B08D57;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+

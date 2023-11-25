@@ -124,7 +124,7 @@ const timeline: Timeline = {
       },
       {
         duration: 25,
-        title: 'All Roads Lead to Rome: Building an Empowered Product Team',
+        title: 'All Roads Lead to Rome: Building an Empowered Team',
         description: 'Step into ancient Rome\'s world—togas, chariot races, and revolutionary road tech! Your empowered team, like Rome, blends diverse talents. Much like Rome\'s roads linking all corners, your team bridges minds, adapting with gladiator-like agility. Inspire, empower—guide them to connect and create, mirroring the profound impact of Rome\'s roads on unity and innovation.',
         speaker: 'Giuseppe Ettorre',
         image: './speakers/giuseppe-ettorre.png',

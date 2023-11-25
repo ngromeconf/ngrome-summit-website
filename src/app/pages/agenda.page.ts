@@ -26,7 +26,7 @@ export const routeMeta: RouteMeta = {
     },
     {
       property: 'og:image',
-      content: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/speaker%2Fmmxxiii%2Fspeakers-list.jpg?alt=media&token=563bf3e3-b086-4847-982d-6c299b9814b4',
+      content: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/speaker%2Fmmxxiii%2Fspeakers-list.jpg?alt=media&token=5a1e84f4-e39e-4efb-b551-1d6811dd6e34',
     },
   ],
 };

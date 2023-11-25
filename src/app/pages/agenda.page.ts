@@ -4,55 +4,86 @@ import { Observable } from 'rxjs';
 import { Timeline } from '../models/timeline.models';
 import { HttpClient } from '@angular/common/http';
 import { TimePipe } from '../components/pages/index/timeline/time.pipe';
+import { RouteMeta } from '@analogjs/router';
+
+export const routeMeta: RouteMeta = {
+  meta: [
+    {
+      name: 'description',
+      content: 'Here you can check the full agenda of 1 Dec 2023',
+    },
+    {
+      name: 'author',
+      content: 'NGRome Team',
+    },
+    {
+      property: 'og:title',
+      content: 'NGRome Summit Agenda',
+    },
+    {
+      property: 'og:description',
+      content: 'Here you can check the full agenda of 1 Dec 2023',
+    },
+    {
+      property: 'og:image',
+      content: 'https://firebasestorage.googleapis.com/v0/b/ngrome-79ce3.appspot.com/o/speaker%2Fmmxxiii%2Fspeakers-list.jpg?alt=media&token=5a1e84f4-e39e-4efb-b551-1d6811dd6e34',
+    },
+  ],
+};
 
 @Component({
   selector: 'app-agenda.page',
   standalone: true,
   template: `
-    <div class="p-4 mt-4">
-      @if (agendaItems$ | async; as agendaItems) {
-      <div class="container">
-        <div class="flex flex-col md:grid grid-cols-12 text-gray-50">
-          @for (agenda of agendaItems.agenda; track $index) {
-          <div class="flex md:contents">
-            <div class="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-              <div class="h-full w-6 flex items-center justify-center">
-                <div class="h-full w-1 bg-white pointer-events-none"></div>
-              </div>
-              <div
-                class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white shadow text-center"
-              ></div>
+    <section class="text-white">
+      <div class="container mx-auto flex flex-col p-6">
+        <h2 class="py-4 text-5xl font-bold text-center">NGRome Summit Agenda</h2>
+        <div class="divide-y divide-gray-700">
+          @if (agendaItems$ | async; as agendaItems) {
+            @for (agenda of agendaItems.agenda; track $index) {
+          <div
+            class="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+            <div
+              class="flex items-center justify-center lg:col-span-1 col-span-full"
+            >
+              @if (agenda.type === 'activity') {
+                <img ngSrc="{{agenda.image}}" class="w-16 logo-img" width="100" height="100" />
+              } @else {
+                <img
+                  ngSrc="{{agenda.image}}"
+                  class="rounded-full"
+                  width="200"
+                  height="200"
+                />
+              }
             </div>
             <div
-              class="bg-white col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full"
+              class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-3 lg:text-left"
             >
-              <h3 class="font-semibold text-lg mb-1 text-black">
-                {{ agenda.speaker }}
-              </h3>
-              <h3 class="font-semibold text-xl mb-1 text-black">
-                {{ agenda.title }}
-
-              </h3>
-              <h3 class="font-normal text-md mb-1 text-black">
-                {{ agenda.description }}
-              </h3>
-              <p class="leading-tight text-justify w-full text-black">
-              @if (agenda.svgIcon) {  
-              <img [ngSrc]="agenda.svgIcon" width="30" height="30"/>
-              }
-                {{ $index | timePipe : agendaItems }}
-              </p>
+              <span class="text-lg tracki uppercase dark:text-violet-400"
+                >{{ $index | timePipe : agendaItems }}</span
+              >
+              @if (agenda.speaker) { <span class="text-2xl md:text-5xl font-bold">{{agenda.speaker}}</span> }
+              <span class="text-xl font-bold md:text-2xl"
+                >{{agenda.title}} </span
+              >
+              <span class="mt-4 dark:text-gray-300"
+                >{{agenda.description}}</span
+              >
             </div>
           </div>
-          }
+            }
+          } 
+          
+          
         </div>
       </div>
-      } @else {
-      <p>No data found</p>
-      }
-    </div>
+    </section>
+   
   `,
-  styles: ``,
+  styles: `.logo-img {
+    fill: red;
+  }`,
   imports: [CommonModule, TimePipe, NgOptimizedImage],
 })
 export default class AgendaComponent {

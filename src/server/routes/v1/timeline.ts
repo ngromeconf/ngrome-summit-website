@@ -133,6 +133,7 @@ const timeline: Timeline = {
       {
         duration: 15,
         title: 'Go Dynamic with Reactive Forms',
+        description: 'Create complex forms in a web application can be a hard task, that\'s why Angular Reactive Forms are one of the top level feature of this framework. Thanks to this powerful tool you can create complex forms easily and offer to users a very nice experience in a short amount of time. But what happens if you need to change frequently to meet new business and regulatory requirements? In this case they are not enough. Join me to learn how to build your own tool to create reactive and user friendly forms dynamically starting from json. Let\'s go dynamic!',
         speaker: 'Davide Passafaro',
         image: './speakers/davide-passafaro.png',
         type: 'talk'

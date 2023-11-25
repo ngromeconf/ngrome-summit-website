@@ -1,3 +1,5 @@
+export type activity = 'talk' | 'activity';
+
 export type timelineItems = {
   duration: number;
   title: string;
@@ -8,7 +10,8 @@ export type timelineItems = {
   twitterUrl?: string,
   jobTitle?: string,
   description?: string,
-  svgIcon?: string;
+  image?: string;
+  type?: activity
 };
 
 export type Timeline = {

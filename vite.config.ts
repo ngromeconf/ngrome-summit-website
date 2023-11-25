@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => ({
       prerender: {
         routes: async () => [
           '/',
+          '/agenda',
           '/api/v1/speakers-list',
           '/api/v1/timeline'
         ],

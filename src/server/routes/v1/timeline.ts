@@ -22,7 +22,7 @@ const timeline: Timeline = {
       {
         duration: 40,
         title: 'Quo vadis, Angular?',
-        speaker: 'Pawel Kozlowski',
+        speaker: 'Pawel Kozlowski & Alex Rickabaugh',
         description: 'This year, people have noticed something interesting is happening with Angular. The pace of feature development has taken off, and the framework seems to be moving forward by leaps and bounds! What’s going on? More importantly - how all those new features fit together into the cohesive story? This talk is the overview of the recent changes in Angular, the larger philosophy behind those changes as well as the glimpse into the future work.',
         image: './speakers/pawel-kozlowski.png',
         type: 'talk'

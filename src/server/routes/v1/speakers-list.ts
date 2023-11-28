@@ -102,7 +102,7 @@ const agenda: timelineItems[] = [
         speaker: 'Davide Passafaro',
         speakerImage: './speakers/davide-passafaro.png',
         githubUrl: 'https://github.com/DavidePassafaro',
-        jobTitle: 'Frontend Architect @ConTe.it',
+        jobTitle: 'Senior Frontend Engineer @awork',
       },
       {
         duration: 25,

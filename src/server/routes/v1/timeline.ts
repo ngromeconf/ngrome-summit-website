@@ -37,7 +37,7 @@ const timeline: Timeline = {
       },
       {
         duration: 20,
-        title: 'Panel with Pawel Kozlowski, Marko Stanimirović',
+        title: 'Panel with Pawel Kozlowski, Alex Rickabaugh, Marko Stanimirović',
         image: 'icons/icon-panel.svg',
         type: 'activity'
       },
@@ -47,21 +47,12 @@ const timeline: Timeline = {
         image: 'icons/icon-tabler-coffee.svg',
         type: 'activity'
       },
-      
       {
         duration: 25,
-        title: 'Better Angular Architectures with Standalone Components, Signals, Nx, & Co',
-        speaker: 'Fabian Gosebrink',
-        description: 'Developing modern web applications can be complex, with challenges in component reusability, efficient communication, and project scalability. Angular\'s latest features, including standalone components, Signals for seamless communication, and Nx\'s monorepo capabilities, provide robust solutions. In this talk, Fabian Gosebrink will guide you through harnessing these features, enabling you to build highly adaptable and responsive web applications with Angular.',
-        image: './speakers/fabian-gosebrink.png',
-        type: 'talk'
-      },
-      {
-        duration: 20,
-        title: 'Harnessing the Power of Signals in Angular Applications',
-        description: 'In this presentation, we will discuss how to use Signals in Angular applications to boost performance and increase developer productivity. Signals are a simple and effective method for managing reactivity and communication between components. By applying these concepts in an Angular setting, developers can greatly enhance the structure of their applications.',
-        speaker: 'Mateusz Stefańczyk',
-        image: './speakers/mateusz-stefanczyk.png',
+        title: 'Go Dynamic with Reactive Forms',
+        description: 'Create complex forms in a web application can be a hard task, that\'s why Angular Reactive Forms are one of the top level feature of this framework. Thanks to this powerful tool you can create complex forms easily and offer to users a very nice experience in a short amount of time. But what happens if you need to change frequently to meet new business and regulatory requirements? In this case they are not enough. Join me to learn how to build your own tool to create reactive and user friendly forms dynamically starting from json. Let\'s go dynamic!',
+        speaker: 'Davide Passafaro',
+        image: './speakers/davide-passafaro.png',
         type: 'talk'
       },
       {
@@ -73,13 +64,13 @@ const timeline: Timeline = {
         type: 'talk'
       },
       {
-        duration: 20,
-        title: 'Panel with Fabian Gosebrink, Mateusz Stefańczyk, Soumaya Erradi',
+        duration: 30,
+        title: 'Panel with Davide Passafaro, Soumaya Erradi',
         image: 'icons/icon-panel.svg',
         type: 'activity'
       },
       {
-        duration: 70,
+        duration: 80,
         title: 'Networking & Lunch',
         image: 'icons/icon-pizza.svg', 
         type: 'activity'
@@ -111,7 +102,7 @@ const timeline: Timeline = {
         type: 'talk'
       },
       {
-        duration: 20,
+        duration: 30,
         title: 'Panel with Massimo Bonanni, Alisa Duncan, Gerard Sans',
         image: 'icons/icon-panel.svg',
         type: 'activity'
@@ -130,24 +121,18 @@ const timeline: Timeline = {
         image: './speakers/giuseppe-ettorre.png',
         type: 'talk'
       },
-      {
-        duration: 15,
-        title: 'Go Dynamic with Reactive Forms',
-        description: 'Create complex forms in a web application can be a hard task, that\'s why Angular Reactive Forms are one of the top level feature of this framework. Thanks to this powerful tool you can create complex forms easily and offer to users a very nice experience in a short amount of time. But what happens if you need to change frequently to meet new business and regulatory requirements? In this case they are not enough. Join me to learn how to build your own tool to create reactive and user friendly forms dynamically starting from json. Let\'s go dynamic!',
-        speaker: 'Davide Passafaro',
-        image: './speakers/davide-passafaro.png',
-        type: 'talk'
-      },
+      
       {
         duration: 40,
         title: 'The era of Angular intelligent apps, with Azure Open AI',
+        description: 'Join Natalia as she walks you through her own journey of learning how to build RAG applications built with Azure Open AI, Azure AI Search and LangChain, using Angular and web components for amazing ChatGPT like user experiences!',
         speaker: 'Natalia Venditto',
         image: './speakers/natalia-venditto.png',
         type: 'talk'
       },
       {
         duration: 20,
-        title: 'Panel with Giuseppe Ettorre, Davide Passafaro, Natalia Venditto',
+        title: 'Panel with Giuseppe Ettorre, Natalia Venditto',
         image: 'icons/icon-panel.svg',
         type: 'activity'
       },

@@ -11,10 +11,10 @@ import { CommonModule } from '@angular/common';
         
         class="bg-gradient-to-r from-red-600 via-pink-500 to-purple-600 hover:from-red-500 hover:to-purple-500 text-white py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
         type="button"
-        href="https://ti.to/ngrome-events/ngrome-summit-2023"
+        href="https://ngrome.io/"
         target="_blank"
       >
-        Get Your Ticket
+        GO TO 2024 EDITION
       </a>
     </div>
   `,
